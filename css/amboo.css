@@ -4,10 +4,14 @@
   --on-primary: white;
   --secondary: cyan;
   --on-secondary: black;
-  --warning: yellow;
-  --on-warning: black;
+  --success: green;
+  --on-success: white;
   --danger: red;
   --on-danger: white;
+  --warning: yellow;
+  --on-warning: black;
+  --info: rgb(85, 195, 231);
+  --on-info: white;
   --surface: white;
   --on-surface: black;
   --background: #eeeeee;
@@ -45,68 +49,72 @@ p {
   background-color: gray;
   border: none;
   color: white;
-  font-size: 24px;
-  padding: 10px 15px;
+  font-size: 16px;
+  padding: 8px 12px;
   text-decoration: none;
   border-radius: 4px;
   display: inline-block;
 }
 /* button size */
-.amb-btn-exsm {
+.amb-btn.exsm {
   font-size: 12px;
   padding: 3px 6px;
 }
-.amb-btn-sm {
+.amb-btn.sm {
   font-size: 14px;
   padding: 5px 8px;
 }
-.amb-btn-md {
-  font-size: 16px;
-  padding: 8px 12px;
-}
-.amb-btn-lg {
+.amb-btn.lg {
   font-size: 20px;
   padding: 12px 18px;
 }
-.amb-btn-exlg {
+.amb-btn.exlg {
   font-size: 24px;
   padding: 15px 22px;
 }
 /* button color */
-.amb-btn-primary {
+.amb-btn.primary {
   background-color: var(--primary);
   color: var(--on-primary);
 }
-.amb-btn-secondary {
+.amb-btn.secondary {
   background-color: var(--secondary);
   color: var(--on-secondary);
 }
-.amb-btn-warning {
+.amb-btn.success {
+  background-color: var(--success);
+  color: var(--on-success);
+}
+.amb-btn.danger {
+  background-color: var(--danger);
+  color: var(--on-danger);
+}
+.amb-btn.warning {
   background-color: var(--warning);
   color: var(--on-warning);
 }
-.amb-btn-danger {
-  background-color: var(--danger);
-  color: var(--on-danger);
+.amb-btn.info {
+  background-color: var(--info);
+  color: var(--on-info);
 }
 /* avatar */
 .amb-avatar {
   border-radius: 50%;
 }
 /* avatar size */
-.amb-avatar-sm {
+.amb-avatar.sm {
   width: 40px;
   height: 40px;
 }
-.amb-avatar-md {
+.amb-avatar.md {
   width: 52px;
   height: 52px;
 }
-.amb-avatar-lg {
+.amb-avatar.lg {
   width: 70px;
   height: 70px;
 }
-.amb-avatar-profile {
+.amb-avatar.profile {
   width: 160px;
   height: 160px;
 }
@@ -171,24 +179,24 @@ p {
   justify-content: flex-end;
 }
 /* radius */
-.amb-rd-1 {
+.rd-1 {
   border-radius: 2px;
 }
-.amb-rd-2 {
-  border-radius: 4px;
+.rd-2 {
+  border-radius: 5px;
 }
-.amb-rd-3 {
+.rd-3 {
   border-radius: 8px;
 }
-.amb-rd-4 {
-  border-radius: 16px;
+.rd-4 {
+  border-radius: 14px;
 }
-.amb-rd-5 {
-  border-radius: 26px;
+.rd-5 {
+  border-radius: 24px;
 }
-.amb-rd-6 {
-  border-radius: 36px;
+.rd-6 {
+  border-radius: 34px;
 }
-.amb-rd-circle {
+.rd-circle {
   border-radius: 50%;
 }
