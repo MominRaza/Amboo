@@ -17,9 +17,28 @@
 body {
   background-color: var(--background);
   color: var(--on-background);
+  margin: 0;
 }
 p {
   margin: 0;
+}
+/* appbar */
+.header {
+  position: sticky;
+  min-height: 56px;
+  top: 0;
+}
+.amb-appbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: calc(100% - 20px);
+  height: 56px;
+  background-color: var(--primary);
+  color: var(--on-primary);
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
 }
 /* button */
 .amb-btn {
@@ -80,8 +99,8 @@ p {
   height: 40px;
 }
 .amb-avatar-md {
-  width: 55px;
-  height: 55px;
+  width: 52px;
+  height: 52px;
 }
 .amb-avatar-lg {
   width: 70px;
@@ -97,6 +116,7 @@ p {
   background-color: var(--surface);
   color: var(--on-surface);
   padding: 10px;
+  margin: 5px;
 }
 .amb-card-header {
   display: flex;
@@ -141,9 +161,10 @@ p {
   align-items: center;
   background-color: var(--surface);
   color: var(--on-surface);
-  margin: 5px 0;
+  margin: 5px;
   padding: 10px;
 }
+
 /* float */
 .amb-float-right {
   display: flex;
