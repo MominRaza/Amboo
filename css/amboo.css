@@ -1,0 +1,173 @@
+/* var */
+:root {
+  --primary: blue;
+  --on-primary: white;
+  --secondary: cyan;
+  --on-secondary: black;
+  --warning: yellow;
+  --on-warning: black;
+  --danger: red;
+  --on-danger: white;
+  --surface: white;
+  --on-surface: black;
+  --background: #eeeeee;
+  --on-background: black;
+}
+/* body */
+body {
+  background-color: var(--background);
+  color: var(--on-background);
+}
+p {
+  margin: 0;
+}
+/* button */
+.amb-btn {
+  background-color: gray;
+  border: none;
+  color: white;
+  font-size: 24px;
+  padding: 10px 15px;
+  text-decoration: none;
+  border-radius: 4px;
+  display: inline-block;
+}
+/* button size */
+.amb-btn-exsm {
+  font-size: 12px;
+  padding: 3px 6px;
+}
+.amb-btn-sm {
+  font-size: 14px;
+  padding: 5px 8px;
+}
+.amb-btn-md {
+  font-size: 16px;
+  padding: 8px 12px;
+}
+.amb-btn-lg {
+  font-size: 20px;
+  padding: 12px 18px;
+}
+.amb-btn-exlg {
+  font-size: 24px;
+  padding: 15px 22px;
+}
+/* button color */
+.amb-btn-primary {
+  background-color: var(--primary);
+  color: var(--on-primary);
+}
+.amb-btn-secondary {
+  background-color: var(--secondary);
+  color: var(--on-secondary);
+}
+.amb-btn-warning {
+  background-color: var(--warning);
+  color: var(--on-warning);
+}
+.amb-btn-danger {
+  background-color: var(--danger);
+  color: var(--on-danger);
+}
+/* avatar */
+.amb-avatar {
+  border-radius: 50%;
+}
+/* avatar size */
+.amb-avatar-sm {
+  width: 40px;
+  height: 40px;
+}
+.amb-avatar-md {
+  width: 55px;
+  height: 55px;
+}
+.amb-avatar-lg {
+  width: 70px;
+  height: 70px;
+}
+.amb-avatar-profile {
+  width: 160px;
+  height: 160px;
+}
+/* card */
+.amb-card {
+  border-radius: 4px;
+  background-color: var(--surface);
+  color: var(--on-surface);
+  padding: 10px;
+}
+.amb-card-header {
+  display: flex;
+  align-items: center;
+}
+.amb-ts-wraper {
+  flex: 1;
+}
+.amb-leading {
+  margin-right: 10px;
+}
+.amb-trailing {
+  /* margin: 10px; */
+}
+.amb-title {
+  font-weight: 600;
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+}
+.amb-subtitle {
+  font-weight: 400;
+  margin-top: -5px;
+  font-size: 0.9rem;
+}
+.amb-card-body {
+  margin: 10px 0;
+}
+.amb-card-containt {
+  margin: 10px 0;
+}
+.amb-card-image {
+  max-width: calc(100% + 20px);
+  height: auto;
+  margin: 0 -10px;
+}
+.amb-card-footer {
+  /* margin-top: 10px; */
+}
+/* list item */
+.amb-list-item {
+  display: flex;
+  align-items: center;
+  background-color: var(--surface);
+  color: var(--on-surface);
+  margin: 5px 0;
+  padding: 10px;
+}
+/* float */
+.amb-float-right {
+  display: flex;
+  justify-content: flex-end;
+}
+/* radius */
+.amb-rd-1 {
+  border-radius: 2px;
+}
+.amb-rd-2 {
+  border-radius: 4px;
+}
+.amb-rd-3 {
+  border-radius: 8px;
+}
+.amb-rd-4 {
+  border-radius: 16px;
+}
+.amb-rd-5 {
+  border-radius: 26px;
+}
+.amb-rd-6 {
+  border-radius: 36px;
+}
+.amb-rd-circle {
+  border-radius: 50%;
+}
