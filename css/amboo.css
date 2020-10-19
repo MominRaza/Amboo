@@ -19,6 +19,7 @@
 }
 /* body */
 body {
+  font-family: "Roboto", sans-serif;
   background-color: var(--background);
   color: var(--on-background);
   margin: 0;
@@ -43,6 +44,44 @@ p {
   display: flex;
   align-items: center;
   padding: 0 10px;
+}
+/* fab */
+.amb-fab {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  background-color: var(--secondary);
+  color: var(--on-secondary);
+  padding: 10px 15px;
+  border-radius: 30px;
+  text-decoration: none;
+}
+/* small fab */
+.amb-fab.sm {
+  font-size: 0.75rem;
+  padding: 8px 12px;
+}
+.amb-fab.sm .material-icons {
+  font-size: 18px;
+}
+/* fab position */
+.amb-fab.fab1 {
+  bottom: 60px;
+}
+.amb-fab.fab2 {
+  bottom: 105px;
+}
+.amb-fab.fab3 {
+  bottom: 150px;
+}
+.amb-fab.fab4 {
+  bottom: 195px;
+}
+.amb-fab.fab5 {
+  bottom: 240px;
+}
+.amb-fab.fab6 {
+  bottom: 285px;
 }
 /* button */
 .amb-btn {
@@ -198,5 +237,23 @@ p {
   border-radius: 34px;
 }
 .rd-circle {
+  border-radius: 50%;
+}
+/* fab icon position */
+.l-icon {
+  padding-left: 8px;
+}
+.l-icon .material-icons {
+  margin-right: 10px;
+}
+.r-icon {
+  padding-right: 8px;
+}
+.r-icon .material-icons {
+  margin-left: 10px;
+}
+.amb-fab.o-icon {
+  width: 38px;
+  height: 38px;
   border-radius: 50%;
 }

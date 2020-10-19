@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Amboo</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap">
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Sharp|Material+Icons+Round|Material+Icons+Two+Tone"> -->
+    <link rel="stylesheet" href="./icons/material-icons.css">
     <link rel="stylesheet" href="./css/amboo.css">
 </head>
 
@@ -15,17 +18,26 @@
     <header class="header">
         <div class="amb-appbar">
             <div class="amb-leading">
-                <img src="https://picsum.photos/40" class="amb-avatar amb-avatar-sm">
+                <i class="material-icons">menu</i>
             </div>
             <div class="amb-ts-wraper">
                 <p class="amb-title">Appbar Title</p>
                 <!-- <p class="amb-subtitle">Appbar Subtitle</p> -->
             </div>
             <div class="amb-trailing">
-                <button class="amb-btn amb-btn-warning amb-btn-sm">Search</button>
+                <button class="amb-btn warning sm">Search</button>
+                <i class="material-icons">more_vert</i>
             </div>
         </div>
     </header>
+
+    <a href="#" class="amb-fab">FAB</a>
+    <a href="#" class="amb-fab o-icon fab1"><i class="material-icons">edit</i></a>
+    <a href="#" class="amb-fab sm fab2">FAB</a>
+    <a href="#" class="amb-fab l-icon fab3"><i class="material-icons">add</i>Left Icon FAB</a>
+    <a href="#" class="amb-fab r-icon fab4">Right Icon FAB<i class="material-icons">add</i></a>
+    <a href="#" class="amb-fab sm o-icon fab5"><i class="material-icons">edit</i></a>
+    <a href="#" class="amb-fab r-icon fab6">Right Icon FAB<i class="material-icons">add</i></a>
 
     <h2>Buttons</h2>
     <h3>Button Sizes</h3>
@@ -45,6 +57,21 @@
         <button class="amb-btn danger">Danger</button>
         <button class="amb-btn warning">Warning</button>
         <button class="amb-btn info">Info</button>
+    </div>
+    <h3>Button With Icon</h3>
+    <div class="amb-card">
+        <button class="amb-btn l-icon">
+            <i class="material-icons">add</i>
+            <span>Left Icon</span>
+        </button>
+        <button class="amb-btn r-icon">
+            <span>Right Icon</span>
+            <i class="material-icons">add</i>
+        </button>
+        <p>Only Icon</p>
+        <button class="amb-btn o-icon">
+            <i class="material-icons">add</i>
+        </button>
     </div>
     
     <h2>Avatars</h2>
