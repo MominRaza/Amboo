@@ -1,0 +1,19 @@
+/* app drawer */
+.amb-app-drawer{
+    position: absolute;
+    top: 56px;
+    left: 0;
+    width: 264px;
+    height: calc(100vh - 56px);
+    overflow: hidden;
+    overflow-y: auto;
+    background: white;
+}
+.amb-nav-link::before{
+    content: attr(icon);
+    font-family: "Material Icons";
+    font-size: 24px;
+    position: absolute;
+    margin-left: -41px;
+    margin-top: -3px;
+}

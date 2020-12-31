@@ -1,0 +1,21 @@
+/* avatar */
+.amb-avatar {
+    border-radius: 50%;
+}
+/* avatar size */
+.amb-avatar.sm {
+    width: 40px;
+    height: 40px;
+}
+.amb-avatar.md {
+    width: 52px;
+    height: 52px;
+}
+.amb-avatar.lg {
+    width: 70px;
+    height: 70px;
+}
+.amb-avatar.profile {
+    width: 160px;
+    height: 160px;
+}
