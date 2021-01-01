@@ -1,5 +1,5 @@
 # Amboo
-Amboo is a Google Material Design, free and open-source HTML, CSS and JS library.
+Amboo is a Material Design, free and open-source HTML, CSS and JS library.
 
 ## Components
 - App Bar
@@ -14,3 +14,5 @@ Amboo is a Google Material Design, free and open-source HTML, CSS and JS library
 - Radius
 - Color
 - Size
+- Shadow
+- Typography
