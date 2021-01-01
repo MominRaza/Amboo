@@ -9,6 +9,14 @@
     border-radius: 4px;
     display: inline-block;
 }
+.amb-btn-o {
+    border: 1px solid gray;
+    color: gray;
+}
+.amb-btn-t {
+    background-color: transparent;
+    color: gray;
+}
 /* button size */
 .amb-btn.exsm {
     font-size: 12px;
@@ -27,6 +35,7 @@
     padding: 15px 22px;
 }
 /* button color */
+/* contained */
 .amb-btn.primary {
     background-color: var(--primary);
     color: var(--on-primary);
@@ -50,4 +59,48 @@
 .amb-btn.info {
     background-color: var(--info);
     color: var(--on-info);
+}
+/* outlined */
+.amb-btn.amb-btn-o.primary {
+    color: var(--primary);
+}
+.amb-btn.amb-btn-o.secondary {
+    color: var(--secondary);
+}
+.amb-btn.amb-btn-o.success {
+    color: var(--success);
+}
+.amb-btn.amb-btn-o.danger {
+    color: var(--danger);
+}
+.amb-btn.amb-btn-o.warning {
+    color: var(--warning);
+}
+.amb-btn.amb-btn-o.info {
+    color: var(--info);
+}
+.amb-btn-o {
+    background-color: transparent !important;
+}
+/* text */
+.amb-btn.amb-btn-t.primary {
+    color: var(--primary);
+}
+.amb-btn.amb-btn-t.secondary {
+    color: var(--secondary);
+}
+.amb-btn.amb-btn-t.success {
+    color: var(--success);
+}
+.amb-btn.amb-btn-t.danger {
+    color: var(--danger);
+}
+.amb-btn.amb-btn-t.warning {
+    color: var(--warning);
+}
+.amb-btn.amb-btn-t.info {
+    color: var(--info);
+}
+.amb-btn-t {
+    background-color: transparent !important;
 }
