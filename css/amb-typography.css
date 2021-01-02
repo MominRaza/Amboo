@@ -1,0 +1,65 @@
+.amb-h1{
+    font-size: 96px;
+    font-weight: 300;
+    letter-spacing: -1.5px;
+}
+.amb-h2{
+    font-size: 60px;
+    font-weight: 300;
+    letter-spacing: -0.5px;
+}
+.amb-h3{
+    font-size: 48px;
+    font-weight: 400;
+    letter-spacing: 0;
+}
+.amb-h4{
+    font-size: 34px;
+    font-weight: 400;
+    letter-spacing: 0.25px;
+}
+.amb-h5{
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 0;
+}
+.amb-h6{
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.15px;
+}
+.amb-s1{
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.15px;
+}
+.amb-s2{
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.1px;
+}
+.amb-b1{
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+.amb-b2{
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.25px;
+}
+.amb-b{
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1.25px;
+}
+.amb-c{
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+}
+.amb-o{
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+}

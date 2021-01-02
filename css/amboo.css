@@ -4,6 +4,7 @@
 @import "amb-appbar.css";
 @import "amb-app-drawer.css";
 @import "amb-main.css";
+@import "amb-typography.css";
 
 /* optional */
 @import "amb-fab.css";
@@ -26,14 +27,18 @@
   flex: 1;
 }
 .amb-leading {
-  margin-right: 10px;
+  margin-right: 32px;
+  height: 24px;
 }
-.amb-trailing {
-  /* margin: 10px; */
+.amb-trailing{
+  height: 24px;
+}
+.amb-trailing i{
+  margin-left: 24px;
 }
 .amb-title {
   font-weight: 600;
-  margin-bottom: 10px;
+  /* margin-bottom: 10px; */
   font-size: 1.1rem;
 }
 .amb-subtitle {
