@@ -1,106 +1,106 @@
 /* button */
 .amb-btn {
-    background-color: gray;
-    border: none;
-    color: white;
-    font-size: 16px;
-    padding: 8px 12px;
-    text-decoration: none;
-    border-radius: 4px;
-    display: inline-block;
+  background-color: gray;
+  border: none;
+  color: white;
+  font-size: 16px;
+  padding: 8px 12px;
+  text-decoration: none;
+  border-radius: 4px;
+  display: inline-block;
 }
 .amb-btn-o {
-    border: 1px solid gray;
-    color: gray;
+  border: 1px solid gray;
+  color: gray;
 }
 .amb-btn-t {
-    background-color: transparent;
-    color: gray;
+  background-color: transparent;
+  color: gray;
 }
 /* button size */
 .amb-btn.exsm {
-    font-size: 12px;
-    padding: 3px 6px;
+  font-size: 12px;
+  padding: 3px 6px;
 }
 .amb-btn.sm {
-    font-size: 14px;
-    padding: 5px 8px;
+  font-size: 14px;
+  padding: 5px 8px;
 }
 .amb-btn.lg {
-    font-size: 20px;
-    padding: 12px 18px;
+  font-size: 20px;
+  padding: 12px 18px;
 }
 .amb-btn.exlg {
-    font-size: 24px;
-    padding: 15px 22px;
+  font-size: 24px;
+  padding: 15px 22px;
 }
 /* button color */
 /* contained */
 .amb-btn.primary {
-    background-color: var(--primary);
-    color: var(--on-primary);
+  background-color: var(--primary);
+  color: var(--on-primary);
 }
 .amb-btn.secondary {
-    background-color: var(--secondary);
-    color: var(--on-secondary);
+  background-color: var(--secondary);
+  color: var(--on-secondary);
 }
 .amb-btn.success {
-    background-color: var(--success);
-    color: var(--on-success);
+  background-color: var(--success);
+  color: var(--on-success);
 }
 .amb-btn.danger {
-    background-color: var(--danger);
-    color: var(--on-danger);
+  background-color: var(--danger);
+  color: var(--on-danger);
 }
 .amb-btn.warning {
-    background-color: var(--warning);
-    color: var(--on-warning);
+  background-color: var(--warning);
+  color: var(--on-warning);
 }
 .amb-btn.info {
-    background-color: var(--info);
-    color: var(--on-info);
+  background-color: var(--info);
+  color: var(--on-info);
 }
 /* outlined */
 .amb-btn.amb-btn-o.primary {
-    color: var(--primary);
+  color: var(--primary);
 }
 .amb-btn.amb-btn-o.secondary {
-    color: var(--secondary);
+  color: var(--secondary);
 }
 .amb-btn.amb-btn-o.success {
-    color: var(--success);
+  color: var(--success);
 }
 .amb-btn.amb-btn-o.danger {
-    color: var(--danger);
+  color: var(--danger);
 }
 .amb-btn.amb-btn-o.warning {
-    color: var(--warning);
+  color: var(--warning);
 }
 .amb-btn.amb-btn-o.info {
-    color: var(--info);
+  color: var(--info);
 }
 .amb-btn-o {
-    background-color: transparent !important;
+  background-color: transparent !important;
 }
 /* text */
 .amb-btn.amb-btn-t.primary {
-    color: var(--primary);
+  color: var(--primary);
 }
 .amb-btn.amb-btn-t.secondary {
-    color: var(--secondary);
+  color: var(--secondary);
 }
 .amb-btn.amb-btn-t.success {
-    color: var(--success);
+  color: var(--success);
 }
 .amb-btn.amb-btn-t.danger {
-    color: var(--danger);
+  color: var(--danger);
 }
 .amb-btn.amb-btn-t.warning {
-    color: var(--warning);
+  color: var(--warning);
 }
 .amb-btn.amb-btn-t.info {
-    color: var(--info);
+  color: var(--info);
 }
 .amb-btn-t {
-    background-color: transparent !important;
+  background-color: transparent !important;
 }

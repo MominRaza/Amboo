@@ -1,7 +1,9 @@
 # Amboo
+
 Amboo is a Material Design, free and open-source HTML, CSS and JS library.
 
 ## Components
+
 - App Bar
 - App Drawer
 - Avatars
@@ -11,6 +13,7 @@ Amboo is a Material Design, free and open-source HTML, CSS and JS library.
 - List
 
 ## Properties
+
 - Radius
 - Color
 - Size
