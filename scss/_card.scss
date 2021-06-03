@@ -1,0 +1,31 @@
+/* card */
+.amb-card {
+  border-radius: 4px;
+  @include set-bc($surface);
+  padding: 10px;
+  margin: 5px;
+
+  &-header {
+    display: flex;
+    align-items: center;
+  }
+  &-body {
+    margin: 10px 0;
+  }
+  &-containt {
+    margin: 10px 0;
+  }
+  &-image {
+    max-width: calc(100% + 20px);
+    height: auto;
+    margin: 0 -10px;
+  }
+  &-footer {
+    margin-top: 10px;
+  }
+}
+/* float */
+.amb-float-right {
+  display: flex;
+  justify-content: flex-end;
+}

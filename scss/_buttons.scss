@@ -1,0 +1,96 @@
+/* buttons */
+.amb-btn {
+  background-color: gray;
+  border: none;
+  color: white;
+  font-size: 16px;
+  padding: 8px 12px;
+  text-decoration: none;
+  border-radius: 4px;
+  display: inline-block;
+
+  &.xsm {
+    font-size: 12px;
+    padding: 3px 6px;
+  }
+  &.sm {
+    font-size: 14px;
+    padding: 5px 8px;
+  }
+  &.lg {
+    font-size: 20px;
+    padding: 12px 18px;
+  }
+  &.xlg {
+    font-size: 24px;
+    padding: 15px 22px;
+  }
+
+  &.primary {
+    @include set-bc($primary);
+  }
+  &.secondary {
+    @include set-bc($secondary);
+  }
+  &.success {
+    @include set-bc($success);
+  }
+  &.danger {
+    @include set-bc($danger);
+  }
+  &.warning {
+    @include set-bc($warning);
+  }
+  &.info {
+    @include set-bc($info);
+  }
+
+  &.amb-btn-o {
+    border: 1px solid gray;
+    color: gray;
+    background-color: transparent;
+
+    &.primary {
+      @include set-oc($primary);
+    }
+    &.secondary {
+      @include set-oc($secondary);
+    }
+    &.success {
+      @include set-oc($success);
+    }
+    &.danger {
+      @include set-oc($danger);
+    }
+    &.warning {
+      @include set-oc($warning);
+    }
+    &.info {
+      @include set-oc($info);
+    }
+  }
+
+  &.amb-btn-t {
+    background-color: transparent;
+    color: gray;
+
+    &.primary {
+      color: $primary;
+    }
+    &.secondary {
+      color: $secondary;
+    }
+    &.success {
+      color: $success;
+    }
+    &.danger {
+      color: $danger;
+    }
+    &.warning {
+      color: $warning;
+    }
+    &.info {
+      color: $info;
+    }
+  }
+}

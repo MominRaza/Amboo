@@ -1,0 +1,28 @@
+$primary: blue;
+$secondary: cyan;
+$success: green;
+$danger: red;
+$warning: yellow;
+$info: rgb(85, 195, 231);
+$surface: white;
+$background: #eeeeee;
+
+@function on($color) {
+  @if (lightness($color) > 60) {
+    @return #000;
+  }
+  @return #fff;
+}
+
+@mixin set-bc($color) {
+  background-color: $color;
+  color: on($color);
+}
+@mixin set-oc($color) {
+  border-color: $color;
+  color: $color;
+}
+@mixin box($height, $width: $height) {
+  height: $height;
+  width: $width;
+}

@@ -1,0 +1,17 @@
+/* avatar */
+.amb-avatar {
+  border-radius: 50%;
+
+  &.sm {
+    @include box(40px);
+  }
+  &.md {
+    @include box(52px);
+  }
+  &.lg {
+    @include box(70px);
+  }
+  &.profile {
+    @include box(160px);
+  }
+}

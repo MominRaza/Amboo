@@ -8,9 +8,11 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
     />
-    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Sharp|Material+Icons+Round|Material+Icons+Two+Tone"> -->
-    <link rel="stylesheet" href="./icons/material-icons.css" />
-    <link rel="stylesheet" href="./css/amboo.css" />
+    <link rel="stylesheet" href="./css/amboo.min.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
@@ -34,16 +36,23 @@
       <div class="amb-app-drawer-head"></div>
       <ul class="amb-app-drawer-list">
         <li class="amb-app-drawer-item">
-          <a href="#" icon="home" class="amb-nav-link">Home</a>
+          <a href="#" class="amb-nav-link">
+            <i class="material-icons">home</i>
+            Home
+          </a>
         </li>
         <li class="amb-app-drawer-item">
-          <a href="#" icon="integration_instructions" class="amb-nav-link"
-            >Getting Started</a
+          <a href="#" class="amb-nav-link">
+            <i class="material-icons">integration_instructions</i>
+            Getting Started
+          </a>
+        </li>
+        <li class="amb-app-drawer-item">
+          <a href="#" class="amb-nav-link">
+            <i class="material-icons">apps</i>
+            Components</a
           >
-        </li>
-        <li class="amb-app-drawer-item">
-          <a href="#" icon="apps" class="amb-nav-link">Components</a>
-          <ul class="amb-app-drawer-list">
+          <ul class="amb-app-drawer-sub-list">
             <li>
               <a href="./components/appbar.html" class="amb-nav-link">AppBar</a>
             </li>
@@ -74,8 +83,11 @@
           </ul>
         </li>
         <li class="amb-app-drawer-item">
-          <a href="#" icon="insights" class="amb-nav-link">Properties</a>
-          <ul class="amb-app-drawer-list">
+          <a href="#" class="amb-nav-link">
+            <i class="material-icons">insights</i>
+            Properties</a
+          >
+          <ul class="amb-app-drawer-sub-list">
             <li class="amb-app-drawer-item">
               <a href="./properties/radius.html" class="amb-nav-link">Radius</a>
             </li>
@@ -96,13 +108,22 @@
           </ul>
         </li>
         <li class="amb-app-drawer-item">
-          <a href="#" icon="home" class="amb-nav-link">About</a>
+          <a href="#" class="amb-nav-link">
+            <i class="material-icons">info_outline</i>
+            About</a
+          >
         </li>
         <li class="amb-app-drawer-item">
-          <a href="#" icon="support" class="amb-nav-link">Support</a>
+          <a href="#" class="amb-nav-link">
+            <i class="material-icons">support</i>
+            Support</a
+          >
         </li>
         <li class="amb-app-drawer-item">
-          <a href="#" icon="groups" class="amb-nav-link">Contribute</a>
+          <a href="#" class="amb-nav-link">
+            <i class="material-icons">groups</i>
+            Contribute</a
+          >
         </li>
       </ul>
     </nav>

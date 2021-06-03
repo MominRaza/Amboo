@@ -1,0 +1,42 @@
+/* appbar */
+.header {
+  position: sticky;
+  height: 56px;
+  top: 0;
+}
+.amb-appbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: calc(100% - 32px);
+  height: 24px;
+  @include set-bc($primary);
+  display: flex;
+  align-items: center;
+  padding: 16px;
+}
+
+.amb-ts-wraper {
+  flex: 1;
+}
+.amb-leading {
+  margin-right: 32px;
+  height: 24px;
+}
+.amb-trailing {
+  height: 24px;
+
+  i {
+    margin-left: 24px;
+  }
+}
+.amb-title {
+  font-weight: 600;
+  /* margin-bottom: 10px; */
+  font-size: 1.1rem;
+}
+.amb-subtitle {
+  font-weight: 400;
+  margin-top: -5px;
+  font-size: 0.9rem;
+}
