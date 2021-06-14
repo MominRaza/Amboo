@@ -382,25 +382,25 @@ body {
 }
 
 /* fab icon position */
-.l-icon {
+.icon-l {
   padding-left: 8px;
 }
 
-.l-icon .material-icons {
+.icon-l .material-icons {
   margin-right: 10px;
   vertical-align: middle;
 }
 
-.r-icon {
+.icon-r {
   padding-right: 8px;
 }
 
-.r-icon .material-icons {
+.icon-r .material-icons {
   margin-left: 10px;
   vertical-align: middle;
 }
 
-.fab.o-icon {
+.fab.icon-o {
   width: 38px;
   height: 38px;
   border-radius: 50%;
