@@ -1,5 +1,5 @@
 /* buttons */
-.amb-btn {
+.btn {
   background-color: gray;
   border: none;
   color: white;
@@ -45,7 +45,7 @@
     @include set-bc($info);
   }
 
-  &.amb-btn-o {
+  &.btn-o {
     border: 1px solid gray;
     color: gray;
     background-color: transparent;
@@ -70,7 +70,7 @@
     }
   }
 
-  &.amb-btn-t {
+  &.btn-t {
     background-color: transparent;
     color: gray;
 

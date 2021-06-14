@@ -1,0 +1,18 @@
+.b-primary {
+  @include set-bc($primary);
+}
+.b-secondary {
+  @include set-bc($secondary);
+}
+.b-success {
+  @include set-bc($success);
+}
+.b-danger {
+  @include set-bc($danger);
+}
+.b-warning {
+  @include set-bc($warning);
+}
+.b-info {
+  @include set-bc($info);
+}

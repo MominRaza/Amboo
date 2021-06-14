@@ -19,3 +19,5 @@ Amboo is a Material Design, free and open-source HTML, CSS and JS library.
 - Size
 - Shadow
 - Typography
+- Grid
+- Align

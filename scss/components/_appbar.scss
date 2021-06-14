@@ -4,7 +4,7 @@
   height: 56px;
   top: 0;
 }
-.amb-appbar {
+.appbar {
   position: absolute;
   top: 0;
   left: 0;
@@ -14,28 +14,32 @@
   display: flex;
   align-items: center;
   padding: 16px;
+
+  .leading {
+    margin-right: 35px;
+  }
 }
 
-.amb-ts-wraper {
+.ts-wraper {
   flex: 1;
 }
-.amb-leading {
-  margin-right: 32px;
+.leading {
+  margin-right: 16px;
   height: 24px;
 }
-.amb-trailing {
+.trailing {
   height: 24px;
 
   i {
     margin-left: 24px;
   }
 }
-.amb-title {
+.title {
   font-weight: 600;
   /* margin-bottom: 10px; */
   font-size: 1.1rem;
 }
-.amb-subtitle {
+.subtitle {
   font-weight: 400;
   margin-top: -5px;
   font-size: 0.9rem;

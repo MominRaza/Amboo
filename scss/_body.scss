@@ -1,4 +1,10 @@
 /* main */
-.amb-main {
-  margin-left: 256px;
+.main {
+  max-width: 1200px;
+  margin: 8px auto;
+}
+.menu-active {
+  .main {
+    margin-left: 264px;
+  }
 }

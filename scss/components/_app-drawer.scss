@@ -1,6 +1,7 @@
 /* app drawer */
-.amb-app-drawer {
-  position: absolute;
+.app-drawer {
+  display: none;
+  position: fixed;
   top: 56px;
   left: 0;
   width: 256px;
@@ -19,7 +20,7 @@
     margin-left: 24px;
   }
 }
-.amb-nav-link {
+.nav-link {
   display: block;
   text-decoration: none;
   color: black;
@@ -29,5 +30,11 @@
   i {
     margin-right: 20px;
     vertical-align: middle;
+  }
+}
+
+.menu-active {
+  .app-drawer {
+    display: block;
   }
 }

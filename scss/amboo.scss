@@ -9,15 +9,18 @@ body {
   font-family: "Roboto", sans-serif;
   @include set-bc($background);
 }
-@import "appbar";
-@import "app-drawer";
 @import "body";
-@import "typography";
-@import "card";
-@import "list";
-@import "buttons";
-@import "avatar";
-@import "fab";
 
-@import "radius";
-@import "color";
+@import "components/appbar";
+@import "components/app-drawer";
+@import "components/card";
+@import "components/list";
+@import "components/buttons";
+@import "components/avatar";
+@import "components/fab";
+
+@import "properties/typography";
+@import "properties/radius";
+@import "properties/color";
+@import "properties/grid";
+@import "properties/align";
