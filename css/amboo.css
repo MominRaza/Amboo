@@ -406,6 +406,10 @@ body {
   border-radius: 50%;
 }
 
+.material-icons {
+  vertical-align: middle;
+}
+
 .material-icons.md-18 {
   font-size: 18px;
 }
@@ -436,6 +440,16 @@ body {
 
 .material-icons.md-light.md-inactive {
   color: rgba(255, 255, 255, 0.3);
+}
+
+.tab-item {
+  display: inline;
+  padding: 4px 0;
+  margin: 0 8px;
+}
+
+.tab-item.selected {
+  border-bottom: 2px solid black;
 }
 
 .h1 {

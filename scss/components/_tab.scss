@@ -1,0 +1,11 @@
+.tab {
+  &-item {
+    display: inline;
+    padding: 4px 0;
+    margin: 0 8px;
+
+    &.selected {
+      border-bottom: 2px solid black;
+    }
+  }
+}

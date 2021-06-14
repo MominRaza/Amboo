@@ -1,7 +1,7 @@
 .flex {
   display: flex;
   gap: 10px;
-}
-.flex-item {
-  flex: 1;
+  &-item {
+    flex: 1;
+  }
 }
