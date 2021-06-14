@@ -31,7 +31,7 @@ Add this in `<head>` section above your custom stylesheet
 ```html
 <link
   rel="stylesheet"
-  href="https://cdn.jsdelivr.net/gh/MominRaza/Amboo/master/css/amboo.min.css"
+  href="https://cdn.jsdelivr.net/gh/MominRaza/Amboo@master/css/amboo.min.css"
 />
 ```
 
