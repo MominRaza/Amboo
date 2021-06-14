@@ -21,3 +21,17 @@ Amboo is a Material Design, free and open-source HTML, CSS and JS library.
 - Typography
 - Grid
 - Align
+
+## How to use
+
+### CSS
+
+Add this in `<head>` section above your custom stylesheet
+
+`<link rel="stylesheet" href="https://raw.githubusercontent.com/MominRaza/Amboo/master/css/amboo.min.css" />`
+
+### JS
+
+Add this just above closing `</body>` tag
+
+`<script src="https://raw.githubusercontent.com/MominRaza/Amboo/master/js/amboo.min.js"></script>`
