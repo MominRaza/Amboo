@@ -31,7 +31,7 @@ Add this in `<head>` section above your custom stylesheet
 ```html
 <link
   rel="stylesheet"
-  href="https://raw.githubusercontent.com/MominRaza/Amboo/master/css/amboo.min.css"
+  href="https://cdn.jsdelivr.net/gh/MominRaza/Amboo/master/css/amboo.min.css"
 />
 ```
 
@@ -40,5 +40,5 @@ Add this in `<head>` section above your custom stylesheet
 Add this just above closing `</body>` tag
 
 ```html
-<script src="https://raw.githubusercontent.com/MominRaza/Amboo/master/js/amboo.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/MominRaza/Amboo@master/js/amboo.min.js"></script>
 ```
