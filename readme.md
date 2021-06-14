@@ -11,6 +11,7 @@ Amboo is a Material Design, free and open-source HTML, CSS and JS library.
 - Cards
 - Floating Action Button
 - List
+- Material Icons
 
 ## Properties
 
