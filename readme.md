@@ -20,6 +20,7 @@ Amboo is a Material Design, free and open-source HTML, CSS and JS library.
 - Shadow
 - Typography
 - Grid
+- Flex
 - Align
 
 ## How to use
@@ -29,6 +30,7 @@ Amboo is a Material Design, free and open-source HTML, CSS and JS library.
 Add this in `<head>` section above your custom stylesheet
 
 ```html
+<!-- Amboo CSS -->
 <link
   rel="stylesheet"
   href="https://cdn.jsdelivr.net/gh/MominRaza/Amboo@master/css/amboo.min.css"
@@ -40,5 +42,6 @@ Add this in `<head>` section above your custom stylesheet
 Add this just above closing `</body>` tag
 
 ```html
+<!-- Amboo JS -->
 <script src="https://cdn.jsdelivr.net/gh/MominRaza/Amboo@master/js/amboo.min.js"></script>
 ```
