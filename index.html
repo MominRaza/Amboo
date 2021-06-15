@@ -28,7 +28,7 @@
         <div class="trailing">
           <i class="material-icons">share</i>
           <i class="material-icons">search</i>
-          <i class="material-icons">more_vert</i>
+          <i class="material-icons" onclick="toggleModal('modal')">more_vert</i>
         </div>
       </div>
     </header>
@@ -200,6 +200,26 @@
         </div>
       </div>
     </main>
+
+    <div class="modal card" id="modal">
+      <h2 class="h4">Login</h2>
+      <form action="#">
+        <div class="card-body">
+          <label for="username">Username</label>
+          <input type="text" name="username" id="username" />
+          <label for="password">Password</label>
+          <input type="password" name="password" id="password" />
+          <input type="checkbox" name="terms" id="terms" />
+          <label for="terms">Accept terms</label>
+        </div>
+        <div class="card-footer right">
+          <button type="submit" class="btn primary">Done</button>
+          <a href="#" class="btn btn-o primary" onclick="toggleModal('modal')">
+            Close
+          </a>
+        </div>
+      </form>
+    </div>
 
     <script src="./js/amboo.min.js"></script>
   </body>

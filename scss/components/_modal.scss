@@ -1,0 +1,13 @@
+.modal {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 300px;
+  min-height: 200px;
+
+  &.modal-active {
+    display: block;
+  }
+}
