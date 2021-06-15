@@ -455,10 +455,10 @@ body {
 .modal {
   display: none;
   position: fixed;
-  top: 50%;
+  top: 20%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
   min-width: 300px;
   min-height: 200px;
 }
