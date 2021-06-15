@@ -6,6 +6,8 @@ $warning: yellow;
 $info: rgb(85, 195, 231);
 $surface: white;
 $background: #eeeeee;
+$white: white;
+$black: black;
 
 @function on($color) {
   @if (lightness($color) > 60) {

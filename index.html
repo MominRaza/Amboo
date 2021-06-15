@@ -26,9 +26,15 @@
           <p class="subtitle">Appbar Subtitle</p>
         </div>
         <div class="trailing">
-          <i class="material-icons">share</i>
-          <i class="material-icons">search</i>
-          <i class="material-icons" onclick="toggleModal('modal')">more_vert</i>
+          <a href="#" class="btn btn-t sm white">
+            <i class="material-icons">share</i>
+          </a>
+          <a href="#" class="btn btn-t sm white">
+            <i class="material-icons">search</i>
+          </a>
+          <a href="#" class="btn btn-t sm white" onclick="toggleModal('modal')">
+            <i class="material-icons">more_vert</i>
+          </a>
         </div>
       </div>
     </header>
@@ -205,12 +211,18 @@
       <h2 class="h4">Login</h2>
       <form action="#">
         <div class="card-body">
-          <label for="username">Username</label>
-          <input type="text" name="username" id="username" />
-          <label for="password">Password</label>
-          <input type="password" name="password" id="password" />
-          <input type="checkbox" name="terms" id="terms" />
-          <label for="terms">Accept terms</label>
+          <label>
+            Username
+            <input type="text" name="username" id="username" />
+          </label>
+          <label>
+            Password
+            <input type="password" name="password" id="password" />
+          </label>
+          <label>
+            <input type="checkbox" name="terms" id="terms" />
+            Accept terms
+          </label>
         </div>
         <div class="card-footer right">
           <button type="submit" class="btn primary">Done</button>

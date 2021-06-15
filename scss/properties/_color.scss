@@ -16,3 +16,9 @@
 .b-info {
   @include set-bc($info);
 }
+.b-white {
+  @include set-bc($white);
+}
+.b-black {
+  @include set-bc($black);
+}

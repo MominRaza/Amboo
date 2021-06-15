@@ -44,6 +44,12 @@
   &.info {
     @include set-bc($info);
   }
+  &.white {
+    @include set-bc($white);
+  }
+  &.black {
+    @include set-bc($black);
+  }
 
   &.btn-o {
     border: 1px solid gray;
@@ -68,6 +74,12 @@
     &.info {
       @include set-oc($info);
     }
+    &.white {
+      @include set-oc($white);
+    }
+    &.black {
+      @include set-oc($black);
+    }
   }
 
   &.btn-t {
@@ -91,6 +103,12 @@
     }
     &.info {
       color: $info;
+    }
+    &.white {
+      color: $white;
+    }
+    &.black {
+      color: $black;
     }
   }
 }
