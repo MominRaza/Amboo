@@ -52,4 +52,4 @@ Add this just above closing `</body>` tag
 
 ## Documentation
 
-https://mominraza.github.io/Amboo/Docs
+https://mominraza.github.io/Amboo
