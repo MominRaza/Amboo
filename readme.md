@@ -49,3 +49,7 @@ Add this just above closing `</body>` tag
 <!-- Amboo JS -->
 <script src="https://cdn.jsdelivr.net/gh/MominRaza/Amboo@master/js/amboo.min.js"></script>
 ```
+
+## Documentation
+
+https://mominraza.github.io/Amboo/Docs
