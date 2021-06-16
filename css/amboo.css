@@ -257,6 +257,23 @@ body {
   border: 1px solid gray;
   color: gray;
   background-color: transparent;
+  padding: 7px 11px;
+}
+
+.btn.btn-o.xsm {
+  padding: 2px 5px;
+}
+
+.btn.btn-o.sm {
+  padding: 4px 7px;
+}
+
+.btn.btn-o.lg {
+  padding: 11px 17px;
+}
+
+.btn.btn-o.xlg {
+  padding: 14px 21px;
 }
 
 .btn.btn-o.primary {
@@ -615,10 +632,6 @@ input[type="checkbox"] {
 
 .rd-6 {
   border-radius: 34px;
-}
-
-.rd-circle {
-  border-radius: 50%;
 }
 
 .b-primary {

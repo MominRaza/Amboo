@@ -55,6 +55,19 @@
     border: 1px solid gray;
     color: gray;
     background-color: transparent;
+    padding: 7px 11px;
+    &.xsm {
+      padding: 2px 5px;
+    }
+    &.sm {
+      padding: 4px 7px;
+    }
+    &.lg {
+      padding: 11px 17px;
+    }
+    &.xlg {
+      padding: 14px 21px;
+    }
 
     &.primary {
       @include set-oc($primary);
