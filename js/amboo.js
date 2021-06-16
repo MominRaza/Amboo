@@ -5,3 +5,6 @@ function toggleModal(target) {
   modal = document.getElementById(target);
   modal.classList.toggle("modal-active");
 }
+function toggleSubMenu(subMenu) {
+  subMenu.classList.toggle("submenu-active");
+}

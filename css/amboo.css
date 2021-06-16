@@ -132,6 +132,28 @@ body {
   list-style: none;
   padding: 0;
   margin-left: 24px;
+  display: none;
+}
+
+.app-drawer-item {
+  position: relative;
+}
+
+.app-drawer-item.submenu::before {
+  content: "expand_more";
+  font-family: "Material Icons";
+  font-size: 24px;
+  position: absolute;
+  top: 16px;
+  right: 16px;
+}
+
+.app-drawer-item.submenu-active::before {
+  content: "expand_less";
+}
+
+.app-drawer-item.submenu-active .app-drawer-sub-list {
+  display: block;
 }
 
 .nav-link {
