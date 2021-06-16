@@ -25,6 +25,10 @@
 }
 .leading {
   margin-right: 16px;
+
+  a:not(.btn) {
+    display: contents;
+  }
 }
 .trailing {
   height: 24px;

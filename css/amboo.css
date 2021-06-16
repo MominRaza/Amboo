@@ -61,6 +61,10 @@ body {
   margin-right: 16px;
 }
 
+.leading a:not(.btn) {
+  display: contents;
+}
+
 .trailing {
   height: 24px;
   display: -webkit-box;
@@ -519,6 +523,12 @@ body {
 
 .modal.modal-active {
   display: block;
+}
+
+.modal-close {
+  position: absolute;
+  top: 4px;
+  right: 2px;
 }
 
 label {

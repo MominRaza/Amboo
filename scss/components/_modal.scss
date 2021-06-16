@@ -10,4 +10,9 @@
   &.modal-active {
     display: block;
   }
+  &-close {
+    position: absolute;
+    top: 4px;
+    right: 2px;
+  }
 }
