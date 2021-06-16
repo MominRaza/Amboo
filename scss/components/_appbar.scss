@@ -13,10 +13,10 @@
   @include set-bc($primary);
   display: flex;
   align-items: center;
-  padding: 16px;
+  padding: 16px 8px;
 
   .leading {
-    margin-right: 35px;
+    margin-right: 27px;
   }
 }
 
@@ -25,11 +25,16 @@
 }
 .leading {
   margin-right: 16px;
-  height: 24px;
 }
 .trailing {
   height: 24px;
-  margin-top: -8px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+
+  a:not(.btn) {
+    display: contents;
+  }
 }
 .title {
   font-weight: 600;

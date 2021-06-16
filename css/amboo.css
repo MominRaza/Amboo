@@ -44,11 +44,11 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 16px;
+  padding: 16px 8px;
 }
 
 .appbar .leading {
-  margin-right: 35px;
+  margin-right: 27px;
 }
 
 .ts-wraper {
@@ -59,12 +59,21 @@ body {
 
 .leading {
   margin-right: 16px;
-  height: 24px;
 }
 
 .trailing {
   height: 24px;
-  margin-top: -8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 6px;
+}
+
+.trailing a:not(.btn) {
+  display: contents;
 }
 
 .title {
