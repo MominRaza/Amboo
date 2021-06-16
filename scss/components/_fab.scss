@@ -1,59 +1,95 @@
 /* fab */
 .fab {
   position: fixed;
-  bottom: 15px;
-  right: 15px;
+  bottom: 16px;
+  right: 16px;
   @include set-bc($secondary);
-  padding: 10px 15px;
+  padding: 12px 20px;
   border-radius: 30px;
   text-decoration: none;
-  /* small fab */
-  &.sm {
-    font-size: 0.75rem;
-    padding: 8px 12px;
+
+  /* fab level */
+  &.fab-l1 {
+    padding: 8px;
+    bottom: 70px;
+  }
+  &.fab-l2 {
+    padding: 8px;
+    bottom: 120px;
+  }
+  &.fab-l3 {
+    padding: 8px;
+    bottom: 170px;
+  }
+  &.fab-l4 {
+    padding: 8px;
+    bottom: 220px;
+  }
+  &.fab-l5 {
+    padding: 8px;
+    bottom: 270px;
+  }
+  &.fab-l6 {
+    padding: 8px;
+    bottom: 320px;
+  }
+
+  // fab position
+  &.fab-tl {
+    top: 72px;
+    bottom: unset;
+    left: 16px;
+    right: unset;
+  }
+  &.fab-tr {
+    top: 72px;
+    bottom: unset;
+  }
+  &.fab-bl {
+    left: 16px;
+    right: unset;
+  }
+
+  // fab icon position
+  &.icon-l {
+    padding-left: 12px;
+    padding-top: 14px;
+
     .material-icons {
-      font-size: 18px;
+      margin-right: 12px;
+      margin-top: -2px;
     }
   }
-  /* fab position */
-  &.fab1 {
-    bottom: 60px;
-  }
-  &.fab2 {
-    bottom: 105px;
-  }
-  &.fab3 {
-    bottom: 150px;
-  }
-  &.fab4 {
-    bottom: 195px;
-  }
-  &.fab5 {
-    bottom: 240px;
-  }
-  &.fab6 {
-    bottom: 285px;
-  }
-}
-/* fab icon position */
-.icon-l {
-  padding-left: 8px;
+  &.icon-r {
+    padding-right: 12px;
+    padding-top: 14px;
 
-  .material-icons {
-    margin-right: 10px;
-    vertical-align: middle;
+    .material-icons {
+      margin-left: 12px;
+      margin-top: -2px;
+    }
+  }
+  &.icon-o {
+    padding: 16px;
   }
 }
-.icon-r {
-  padding-right: 8px;
 
-  .material-icons {
-    margin-left: 10px;
-    vertical-align: middle;
-  }
-}
-.fab.icon-o {
-  width: 38px;
-  height: 38px;
-  border-radius: 50%;
-}
+// .icon-l {
+//   padding-left: 8px;
+
+//   .material-icons {
+//     margin-right: 10px;
+//     vertical-align: middle;
+//   }
+// }
+// .icon-r {
+//   padding-right: 8px;
+
+//   .material-icons {
+//     margin-left: 10px;
+//     vertical-align: middle;
+//   }
+// }
+// .icon-o {
+//   border-radius: 50%;
+// }

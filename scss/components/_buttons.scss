@@ -10,21 +10,104 @@
   display: inline-block;
   cursor: pointer;
 
+  &.icon-l {
+    padding-left: 8px;
+    .material-icons {
+      margin-right: 6px;
+    }
+  }
+  &.icon-r {
+    padding-right: 8px;
+    .material-icons {
+      margin-left: 6px;
+    }
+  }
+  &.icon-o {
+    padding: 8px 9px;
+  }
   &.xsm {
     font-size: 12px;
     padding: 3px 6px;
+
+    &.icon-l {
+      padding-left: 3px;
+      .material-icons {
+        margin-right: 2px;
+      }
+    }
+    &.icon-r {
+      padding-right: 3px;
+      .material-icons {
+        margin-left: 2px;
+      }
+    }
+    &.icon-o {
+      padding: 2px;
+    }
   }
   &.sm {
     font-size: 14px;
     padding: 5px 8px;
+
+    &.icon-l {
+      padding-left: 5px;
+      .material-icons {
+        margin-right: 4px;
+        margin-top: -2px;
+      }
+    }
+    &.icon-r {
+      padding-right: 5px;
+      .material-icons {
+        margin-left: 4px;
+        margin-top: -2px;
+      }
+    }
+    &.icon-o {
+      padding: 5px 6px;
+    }
   }
   &.lg {
     font-size: 20px;
     padding: 12px 18px;
+
+    &.icon-l {
+      padding-left: 12px;
+      .material-icons {
+        margin-right: 8px;
+      }
+    }
+    &.icon-r {
+      padding-right: 12px;
+      .material-icons {
+        margin-left: 8px;
+      }
+    }
+    &.icon-o {
+      padding: 12px 13px;
+    }
   }
   &.xlg {
     font-size: 24px;
     padding: 15px 22px;
+
+    &.icon-l {
+      padding-left: 15px;
+      .material-icons {
+        margin-right: 12px;
+        margin-top: -1px;
+      }
+    }
+    &.icon-r {
+      padding-right: 15px;
+      .material-icons {
+        margin-left: 12px;
+        margin-top: -1px;
+      }
+    }
+    &.icon-o {
+      padding: 15px 16px;
+    }
   }
 
   &.primary {
@@ -57,17 +140,67 @@
     color: gray;
     background-color: transparent;
     padding: 7px 11px;
+
+    &.icon-l {
+      padding-left: 7px;
+    }
+    &.icon-r {
+      padding-right: 7px;
+    }
+    &.icon-o {
+      padding: 7px 8px;
+    }
     &.xsm {
       padding: 2px 5px;
+
+      &.icon-l {
+        padding-left: 2px;
+      }
+      &.icon-r {
+        padding-right: 2px;
+      }
+      &.icon-o {
+        padding: 1px;
+      }
     }
     &.sm {
       padding: 4px 7px;
+
+      &.icon-l {
+        padding-left: 4px;
+      }
+      &.icon-r {
+        padding-right: 4px;
+      }
+      &.icon-o {
+        padding: 4px 5px;
+      }
     }
     &.lg {
       padding: 11px 17px;
+
+      &.icon-l {
+        padding-left: 11px;
+      }
+      &.icon-r {
+        padding-right: 11px;
+      }
+      &.icon-o {
+        padding: 11px 12px;
+      }
     }
     &.xlg {
       padding: 14px 21px;
+
+      &.icon-l {
+        padding-left: 14px;
+      }
+      &.icon-r {
+        padding-right: 14px;
+      }
+      &.icon-o {
+        padding: 14px 15px;
+      }
     }
 
     &.primary {
