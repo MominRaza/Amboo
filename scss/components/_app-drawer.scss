@@ -38,3 +38,14 @@
     display: block;
   }
 }
+
+@media (min-width: $bp-sm-laptop) {
+  .app-drawer {
+    display: block;
+  }
+  .menu-active {
+    .app-drawer {
+      display: none;
+    }
+  }
+}

@@ -22,6 +22,24 @@ body {
   margin-left: 264px;
 }
 
+@media (min-width: 1024px) {
+  .main {
+    margin-left: 264px;
+  }
+  .menu-active .main {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .main {
+    margin-left: 0;
+  }
+  .menu-active .main {
+    margin-left: 0;
+  }
+}
+
 /* appbar */
 .header {
   position: -webkit-sticky;
@@ -131,6 +149,15 @@ body {
 
 .menu-active .app-drawer {
   display: block;
+}
+
+@media (min-width: 1024px) {
+  .app-drawer {
+    display: block;
+  }
+  .menu-active .app-drawer {
+    display: none;
+  }
 }
 
 /* card */

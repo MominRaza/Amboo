@@ -8,3 +8,24 @@
     margin-left: 264px;
   }
 }
+
+@media (min-width: $bp-sm-laptop) {
+  .main {
+    margin-left: 264px;
+  }
+  .menu-active {
+    .main {
+      margin-left: 0;
+    }
+  }
+}
+@media (max-width: $bp-tablet) {
+  .main {
+    margin-left: 0;
+  }
+  .menu-active {
+    .main {
+      margin-left: 0;
+    }
+  }
+}

@@ -9,6 +9,11 @@ $background: #eeeeee;
 $white: white;
 $black: black;
 
+$bp-sm-laptop: 1024px;
+$bp-tablet: 768px;
+$bp-mobile: 425px;
+$bp-sm-mobile: 320px;
+
 @function on($color) {
   @if (lightness($color) > 60) {
     @return #000;
