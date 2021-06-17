@@ -1,7 +1,14 @@
+// align
 $aligns: left, right, center;
 
 @each $align in $aligns {
   .#{$align} {
     text-align: $align;
   }
+}
+
+// float
+.float-right {
+  display: flex;
+  justify-content: flex-end;
 }

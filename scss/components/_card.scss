@@ -1,4 +1,4 @@
-/* card */
+// card
 .card {
   border-radius: 4px;
   @include set-bc($surface);
@@ -21,9 +21,4 @@
   &-footer {
     margin-top: 10px;
   }
-}
-/* float */
-.float-right {
-  display: flex;
-  justify-content: flex-end;
 }

@@ -1,5 +1,5 @@
-$radius: 2, 5, 8, 14, 24, 34;
 // radius
+$radius: 2, 5, 8, 14, 24, 34;
 $i: 1;
 @each $value in $radius {
   .rd-#{$i} {
