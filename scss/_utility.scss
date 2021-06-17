@@ -9,11 +9,27 @@ $background: #eeeeee;
 $white: white;
 $black: black;
 
+$colors: (
+  primary: $primary,
+  secondary: $secondary,
+  success: $success,
+  danger: $danger,
+  warning: $warning,
+  info: $info,
+  white: $white,
+  black: $black,
+);
+
 $bp-laptop: 1200px;
 $bp-sm-laptop: 1024px;
 $bp-tablet: 768px;
 $bp-mobile: 375px;
 $bp-sm-mobile: 374px;
+
+$z-index-appbar: 40;
+$z-index-app-drawer: 30;
+$z-index-modal: 20;
+$z-index-fab: 10;
 
 @function on($color) {
   @if (lightness($color) > 60) {

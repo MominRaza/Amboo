@@ -2,9 +2,7 @@
 .card {
   border-radius: 4px;
   @include set-bc($surface);
-  margin: 8px;
   padding: 10px;
-  min-height: 60px;
 
   &-header {
     display: flex;

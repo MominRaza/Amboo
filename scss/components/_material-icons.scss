@@ -1,17 +1,12 @@
+$sizes: 18, 24, 36, 48;
+
 .material-icons {
   vertical-align: middle;
 
-  &.md-18 {
-    font-size: 18px;
-  }
-  &.md-24 {
-    font-size: 24px;
-  }
-  &.md-36 {
-    font-size: 36px;
-  }
-  &.md-48 {
-    font-size: 48px;
+  @each $size in $sizes {
+    &.md-#{$size} {
+      font-size: $size * 1px;
+    }
   }
   &.md-dark {
     color: rgba(0, 0, 0, 0.54);

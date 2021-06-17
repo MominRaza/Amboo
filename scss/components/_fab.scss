@@ -7,31 +7,15 @@
   padding: 12px 20px;
   border-radius: 30px;
   text-decoration: none;
+  z-index: $z-index-fab;
 
   /* fab level */
-  &.fab-l1 {
-    padding: 8px;
-    bottom: 70px;
-  }
-  &.fab-l2 {
-    padding: 8px;
-    bottom: 120px;
-  }
-  &.fab-l3 {
-    padding: 8px;
-    bottom: 170px;
-  }
-  &.fab-l4 {
-    padding: 8px;
-    bottom: 220px;
-  }
-  &.fab-l5 {
-    padding: 8px;
-    bottom: 270px;
-  }
-  &.fab-l6 {
-    padding: 8px;
-    bottom: 320px;
+  @for $i from 1 through 6 {
+    &.fab-l#{$i} {
+      bottom: (20 + 50 * $i) * 1px;
+      z-index: $z-index-fab - $i;
+      padding: 8px;
+    }
   }
 
   // fab position
@@ -73,23 +57,3 @@
     padding: 16px;
   }
 }
-
-// .icon-l {
-//   padding-left: 8px;
-
-//   .material-icons {
-//     margin-right: 10px;
-//     vertical-align: middle;
-//   }
-// }
-// .icon-r {
-//   padding-right: 8px;
-
-//   .material-icons {
-//     margin-left: 10px;
-//     vertical-align: middle;
-//   }
-// }
-// .icon-o {
-//   border-radius: 50%;
-// }

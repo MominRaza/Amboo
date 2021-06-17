@@ -1,24 +1,5 @@
-.b-primary {
-  @include set-bc($primary);
-}
-.b-secondary {
-  @include set-bc($secondary);
-}
-.b-success {
-  @include set-bc($success);
-}
-.b-danger {
-  @include set-bc($danger);
-}
-.b-warning {
-  @include set-bc($warning);
-}
-.b-info {
-  @include set-bc($info);
-}
-.b-white {
-  @include set-bc($white);
-}
-.b-black {
-  @include set-bc($black);
+@each $name, $color in $colors {
+  .b-#{$name} {
+    @include set-bc($color);
+  }
 }

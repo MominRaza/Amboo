@@ -1,17 +1,17 @@
-/* avatar */
+$avatars: (
+  sm: 40,
+  md: 52,
+  lg: 70,
+  profile: 160,
+);
+
+// avatar
 .avatar {
   border-radius: 50%;
 
-  &.sm {
-    @include box(40px);
-  }
-  &.md {
-    @include box(52px);
-  }
-  &.lg {
-    @include box(70px);
-  }
-  &.profile {
-    @include box(160px);
+  @each $name, $size in $avatars {
+    &.#{$name} {
+      @include box($size * 1px);
+    }
   }
 }

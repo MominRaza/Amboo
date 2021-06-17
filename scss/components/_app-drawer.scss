@@ -9,6 +9,7 @@
   overflow: hidden;
   overflow-y: auto;
   background: white;
+  z-index: $z-index-app-drawer;
 
   &-list {
     list-style: none;

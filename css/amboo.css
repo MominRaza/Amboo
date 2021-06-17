@@ -16,6 +16,7 @@ body {
 .main {
   max-width: 1200px;
   margin: 8px auto;
+  padding: 8px;
 }
 
 .menu-active .main {
@@ -40,7 +41,6 @@ body {
   }
 }
 
-/* appbar */
 .header {
   position: -webkit-sticky;
   position: sticky;
@@ -63,6 +63,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   padding: 16px 8px;
+  z-index: 40;
 }
 
 .appbar .leading {
@@ -100,7 +101,6 @@ body {
 
 .title {
   font-weight: 600;
-  /* margin-bottom: 10px; */
   font-size: 1.1rem;
 }
 
@@ -121,6 +121,7 @@ body {
   overflow: hidden;
   overflow-y: auto;
   background: white;
+  z-index: 30;
 }
 
 .app-drawer-list {
@@ -187,9 +188,7 @@ body {
   border-radius: 4px;
   background-color: white;
   color: #000;
-  margin: 8px;
   padding: 10px;
-  min-height: 60px;
 }
 
 .card-header {
@@ -270,6 +269,7 @@ body {
 
 .btn.icon-l .material-icons {
   margin-right: 6px;
+  margin-top: 0px;
 }
 
 .btn.icon-r {
@@ -278,6 +278,7 @@ body {
 
 .btn.icon-r .material-icons {
   margin-left: 6px;
+  margin-top: 0px;
 }
 
 .btn.icon-o {
@@ -295,6 +296,7 @@ body {
 
 .btn.xsm.icon-l .material-icons {
   margin-right: 2px;
+  margin-top: 0px;
 }
 
 .btn.xsm.icon-r {
@@ -303,10 +305,11 @@ body {
 
 .btn.xsm.icon-r .material-icons {
   margin-left: 2px;
+  margin-top: 0px;
 }
 
 .btn.xsm.icon-o {
-  padding: 2px;
+  padding: 2px 2px;
 }
 
 .btn.sm {
@@ -347,6 +350,7 @@ body {
 
 .btn.lg.icon-l .material-icons {
   margin-right: 8px;
+  margin-top: 0px;
 }
 
 .btn.lg.icon-r {
@@ -355,6 +359,7 @@ body {
 
 .btn.lg.icon-r .material-icons {
   margin-left: 8px;
+  margin-top: 0px;
 }
 
 .btn.lg.icon-o {
@@ -460,7 +465,7 @@ body {
 }
 
 .btn.btn-o.xsm.icon-o {
-  padding: 1px;
+  padding: 1px 1px;
 }
 
 .btn.btn-o.sm {
@@ -588,7 +593,6 @@ body {
   color: black;
 }
 
-/* avatar */
 .avatar {
   border-radius: 50%;
 }
@@ -623,37 +627,44 @@ body {
   padding: 12px 20px;
   border-radius: 30px;
   text-decoration: none;
+  z-index: 10;
   /* fab level */
 }
 
 .fab.fab-l1 {
-  padding: 8px;
   bottom: 70px;
+  z-index: 9;
+  padding: 8px;
 }
 
 .fab.fab-l2 {
-  padding: 8px;
   bottom: 120px;
+  z-index: 8;
+  padding: 8px;
 }
 
 .fab.fab-l3 {
-  padding: 8px;
   bottom: 170px;
+  z-index: 7;
+  padding: 8px;
 }
 
 .fab.fab-l4 {
-  padding: 8px;
   bottom: 220px;
+  z-index: 6;
+  padding: 8px;
 }
 
 .fab.fab-l5 {
-  padding: 8px;
   bottom: 270px;
+  z-index: 5;
+  padding: 8px;
 }
 
 .fab.fab-l6 {
-  padding: 8px;
   bottom: 320px;
+  z-index: 4;
+  padding: 8px;
 }
 
 .fab.fab-tl {
@@ -752,6 +763,7 @@ body {
           transform: translate(-50%, 0);
   min-width: 300px;
   min-height: 200px;
+  z-index: 20;
 }
 
 .modal.modal-active {
@@ -875,7 +887,6 @@ input[type="checkbox"] {
   margin-bottom: 0.5em;
 }
 
-/* radius */
 .rd-1 {
   border-radius: 2px;
 }
@@ -944,7 +955,6 @@ input[type="checkbox"] {
   display: -ms-grid;
   display: grid;
   grid-gap: 8px;
-  margin: 8px;
 }
 
 .grid.grid-2 {

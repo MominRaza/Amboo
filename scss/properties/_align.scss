@@ -1,9 +1,7 @@
-.left {
-  text-align: left;
-}
-.right {
-  text-align: right;
-}
-.center {
-  text-align: center;
+$aligns: left, right, center;
+
+@each $align in $aligns {
+  .#{$align} {
+    text-align: $align;
+  }
 }

@@ -6,6 +6,7 @@
   transform: translate(-50%, 0);
   min-width: 300px;
   min-height: 200px;
+  z-index: $z-index-modal;
 
   &.modal-active {
     display: block;
