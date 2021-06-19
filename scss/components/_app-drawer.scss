@@ -69,3 +69,11 @@
     }
   }
 }
+@media (max-width: $bp-tablet) {
+  .app-drawer {
+    width: 356px;
+    // to do
+    // top: 0;
+    // height: 100vh;
+  }
+}

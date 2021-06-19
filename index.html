@@ -18,10 +18,10 @@
   <body>
     <header class="header">
       <div class="appbar">
-        <div class="leading" onclick="toggleMenu()">
-          <a href="#" class="btn btn-t sm white">
+        <div class="leading">
+          <button class="btn btn-t sm white" onclick="toggleMenu()">
             <i class="material-icons">menu</i>
-          </a>
+          </button>
         </div>
         <div class="ts-wraper">
           <p class="title">Amboo</p>
@@ -553,17 +553,29 @@
       <section>
         <h2 class="h2">Floating Action Buttons</h2>
         <p>fab class can be use with a, button</p>
-        <a href="#" class="fab">Floating Action Button</a>
-        <a href="#" class="fab icon-l fab-tl">
+        <a href="#" class="fab icon-l fab-middle">
           <i class="material-icons">edit</i>
           Floating Action Button
         </a>
-        <a href="#" class="fab icon-o fab-tr">
+        <a href="#" class="fab fab-l1 fab-middle b-primary">
           <i class="material-icons">edit</i>
         </a>
-        <a href="#" class="fab icon-o fab-bl">
+        <a href="#" class="fab fab-l2 fab-middle b-secondary">
           <i class="material-icons">edit</i>
         </a>
+        <a href="#" class="fab fab-l3 fab-middle b-danger">
+          <i class="material-icons">add</i>
+        </a>
+        <a href="#" class="fab fab-l4 fab-middle b-warning">
+          <i class="material-icons">add</i>
+        </a>
+        <a href="#" class="fab fab-l5 fab-middle b-info">
+          <i class="material-icons">edit</i>
+        </a>
+        <a href="#" class="fab fab-l6 fab-middle b-success">
+          <i class="material-icons">add</i>
+        </a>
+        <a href="#" class="fab icon-o"><i class="material-icons">edit</i></a>
         <a href="#" class="fab fab-l1 b-primary">
           <i class="material-icons">edit</i>
         </a>
@@ -699,7 +711,8 @@
           class like grid-mobile-3.
         </p>
         <p class="b1">Note: grid-sm-mobile works diffrently</p>
-        <div class="grid grid-2">
+
+        <div class="card grid grid-2">
           <div class="card grid-item b-primary">1</div>
           <div class="card grid-item b-secondary">2</div>
           <div class="card grid-item b-success">3</div>
@@ -713,7 +726,7 @@
           <div class="card grid-item b-warning">11</div>
           <div class="card grid-item b-info">12</div>
         </div>
-        <div class="grid grid-sm-mobile-4">
+        <div class="card grid grid-sm-mobile-4">
           <div class="card grid-item b-primary">1</div>
           <div class="card grid-item b-secondary">2</div>
           <div class="card grid-item b-success">3</div>
@@ -727,7 +740,7 @@
           <div class="card grid-item b-warning">11</div>
           <div class="card grid-item b-info">12</div>
         </div>
-        <div class="grid grid-mobile-6">
+        <div class="card grid grid-mobile-6">
           <div class="card grid-item b-primary">1</div>
           <div class="card grid-item b-secondary">2</div>
           <div class="card grid-item b-success">3</div>
@@ -741,7 +754,7 @@
           <div class="card grid-item b-warning">11</div>
           <div class="card grid-item b-info">12</div>
         </div>
-        <div class="grid grid-tablet-8">
+        <div class="card grid grid-tablet-8">
           <div class="card grid-item b-primary">1</div>
           <div class="card grid-item b-secondary">2</div>
           <div class="card grid-item b-success">3</div>
@@ -755,7 +768,7 @@
           <div class="card grid-item b-warning">11</div>
           <div class="card grid-item b-info">12</div>
         </div>
-        <div class="grid grid-sm-laptop-10">
+        <div class="card grid grid-sm-laptop-10">
           <div class="card grid-item b-primary">1</div>
           <div class="card grid-item b-secondary">2</div>
           <div class="card grid-item b-success">3</div>
@@ -769,7 +782,7 @@
           <div class="card grid-item b-warning">11</div>
           <div class="card grid-item b-info">12</div>
         </div>
-        <div class="grid grid-laptop-12 grid-tablet-8 grid-mobile-4">
+        <div class="card grid grid-laptop-12 grid-tablet-8 grid-mobile-4">
           <div class="card grid-item b-primary">1</div>
           <div class="card grid-item b-secondary">2</div>
           <div class="card grid-item b-success">3</div>

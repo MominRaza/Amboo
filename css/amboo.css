@@ -180,6 +180,12 @@ body {
   }
 }
 
+@media (max-width: 768px) {
+  .app-drawer {
+    width: 356px;
+  }
+}
+
 .card {
   border-radius: 4px;
   background-color: white;
@@ -611,59 +617,55 @@ body {
   border-radius: 30px;
   text-decoration: none;
   z-index: 10;
+  white-space: nowrap;
 }
 
 .fab.fab-l1 {
-  bottom: 70px;
+  bottom: 85px;
   z-index: 9;
   padding: 8px;
+  right: 24px;
 }
 
 .fab.fab-l2 {
-  bottom: 120px;
+  bottom: 135px;
   z-index: 8;
   padding: 8px;
+  right: 24px;
 }
 
 .fab.fab-l3 {
-  bottom: 170px;
+  bottom: 185px;
   z-index: 7;
   padding: 8px;
+  right: 24px;
 }
 
 .fab.fab-l4 {
-  bottom: 220px;
+  bottom: 235px;
   z-index: 6;
   padding: 8px;
+  right: 24px;
 }
 
 .fab.fab-l5 {
-  bottom: 270px;
+  bottom: 285px;
   z-index: 5;
   padding: 8px;
+  right: 24px;
 }
 
 .fab.fab-l6 {
-  bottom: 320px;
+  bottom: 335px;
   z-index: 4;
   padding: 8px;
+  right: 24px;
 }
 
-.fab.fab-tl {
-  top: 72px;
-  bottom: unset;
-  left: 16px;
-  right: unset;
-}
-
-.fab.fab-tr {
-  top: 72px;
-  bottom: unset;
-}
-
-.fab.fab-bl {
-  left: 16px;
-  right: unset;
+.fab.fab-middle {
+  right: 50%;
+  -webkit-transform: translateX(50%);
+          transform: translateX(50%);
 }
 
 .fab.icon-l {
@@ -772,9 +774,10 @@ input {
   border-radius: 4px;
 }
 
-input[type="checkbox"] {
+input[type="checkbox"], input[type="radio"] {
   display: inline-block;
   width: 24px;
+  vertical-align: middle;
 }
 
 .h1 {
