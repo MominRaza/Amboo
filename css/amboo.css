@@ -777,7 +777,9 @@ input {
 input[type="checkbox"], input[type="radio"] {
   display: inline-block;
   width: 24px;
+  height: 18px;
   vertical-align: middle;
+  margin-right: 10px;
 }
 
 .h1 {
