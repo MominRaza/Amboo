@@ -3,13 +3,16 @@ label {
   display: block;
   margin: 20px 0 10px;
 }
-input {
+%input-shared {
   display: block;
   width: 100%;
   margin: 8px 0;
   padding: 5px 10px;
   font-size: 1.2em;
   border-radius: 4px;
+}
+input {
+  @extend %input-shared;
 
   &[type="checkbox"],
   &[type="radio"] {
@@ -21,10 +24,5 @@ input {
   }
 }
 select {
-  display: block;
-  width: 100%;
-  margin: 8px 0;
-  padding: 5px 10px;
-  font-size: 1.2em;
-  border-radius: 4px;
+  @extend %input-shared;
 }
