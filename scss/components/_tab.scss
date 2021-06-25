@@ -5,8 +5,19 @@
     padding: 4px;
     margin: 0 8px;
 
+    text-decoration: none;
+
     &.selected {
-      border-bottom: 2px solid black;
+      border-bottom: 2px solid $white;
+    }
+    &.white {
+      color: $white;
+    }
+    &.black {
+      color: $black;
+      &.selected {
+        border-bottom: 2px solid $black;
+      }
     }
   }
 }
