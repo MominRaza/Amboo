@@ -734,9 +734,22 @@ body {
   display: inline;
   padding: 4px;
   margin: 0 8px;
+  text-decoration: none;
 }
 
 .tab-item.selected {
+  border-bottom: 2px solid white;
+}
+
+.tab-item.white {
+  color: white;
+}
+
+.tab-item.black {
+  color: black;
+}
+
+.tab-item.black.selected {
   border-bottom: 2px solid black;
 }
 

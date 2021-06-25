@@ -15,6 +15,7 @@
     }
     &.black {
       color: $black;
+
       &.selected {
         border-bottom: 2px solid $black;
       }
