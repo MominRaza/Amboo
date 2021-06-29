@@ -914,6 +914,10 @@ input[type="checkbox"], input[type="radio"] {
   border-radius: 34px;
 }
 
+.rd-circle {
+  border-radius: 50%;
+}
+
 .b-primary {
   background-color: #6200ee;
   color: #fff;
