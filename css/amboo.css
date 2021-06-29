@@ -397,7 +397,7 @@ body {
 }
 
 .btn.success {
-  background-color: green;
+  background-color: #28a745;
   color: #fff;
 }
 
@@ -520,8 +520,8 @@ body {
 }
 
 .btn.btn-o.success {
-  border-color: green;
-  color: green;
+  border-color: #28a745;
+  color: #28a745;
 }
 
 .btn.btn-o.danger {
@@ -563,7 +563,7 @@ body {
 }
 
 .btn.btn-t.success {
-  color: green;
+  color: #28a745;
 }
 
 .btn.btn-t.danger {
@@ -925,7 +925,7 @@ input[type="checkbox"], input[type="radio"] {
 }
 
 .b-success {
-  background-color: green;
+  background-color: #28a745;
   color: #fff;
 }
 
