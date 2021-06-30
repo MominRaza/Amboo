@@ -23,6 +23,7 @@ input {
     margin-right: 10px;
   }
 }
-select {
+select,
+textarea {
   @extend %input-shared;
 }
