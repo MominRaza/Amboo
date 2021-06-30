@@ -1,10 +1,14 @@
 // tab
 .tab {
+  overflow: hidden;
+  overflow-x: auto;
+  min-height: 24px;
+
   &-item {
     display: inline;
     padding: 4px;
     margin: 0 8px;
-
+    white-space: nowrap;
     text-decoration: none;
 
     &.selected {

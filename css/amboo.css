@@ -742,10 +742,17 @@ body {
   color: rgba(255, 255, 255, 0.3);
 }
 
+.tab {
+  overflow: hidden;
+  overflow-x: auto;
+  min-height: 24px;
+}
+
 .tab-item {
   display: inline;
   padding: 4px;
   margin: 0 8px;
+  white-space: nowrap;
   text-decoration: none;
 }
 
