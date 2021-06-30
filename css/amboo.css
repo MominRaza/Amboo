@@ -902,6 +902,27 @@ input[type="checkbox"], input[type="radio"] {
   margin-bottom: 0.5em;
 }
 
+@media (max-width: 768px) {
+  .h1 {
+    font-size: 72px;
+  }
+  .h2 {
+    font-size: 45px;
+  }
+  .h3 {
+    font-size: 36px;
+  }
+  .h4 {
+    font-size: 25px;
+  }
+  .h5 {
+    font-size: 18px;
+  }
+  .h6 {
+    font-size: 16px;
+  }
+}
+
 .rd-1 {
   border-radius: 2px;
 }
