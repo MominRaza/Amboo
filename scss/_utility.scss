@@ -21,6 +21,13 @@ $colors: (
   black: $black,
 );
 
+// css variables
+:root {
+  @each $name, $color in $colors {
+    --#{$name}: #{$color};
+  }
+}
+
 $bp-laptop: 1200px;
 $bp-sm-laptop: 1024px;
 $bp-tablet: 768px;

@@ -1,3 +1,14 @@
+:root {
+  --primary: #6200ee;
+  --secondary: #03dac5;
+  --success: #28a745;
+  --danger: #b00020;
+  --warning: orange;
+  --info: #55c3e7;
+  --white: white;
+  --black: black;
+}
+
 * {
   margin: 0;
   padding: 0;
