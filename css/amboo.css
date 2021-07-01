@@ -141,7 +141,6 @@ body {
   list-style: none;
   padding: 0;
   margin-left: 24px;
-  display: none;
 }
 
 .app-drawer-item {
@@ -155,6 +154,10 @@ body {
   position: absolute;
   top: 16px;
   right: 16px;
+}
+
+.app-drawer-item:not(.submenu-active) .app-drawer-sub-list {
+  display: none;
 }
 
 .app-drawer-item.submenu-active::before {
