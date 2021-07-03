@@ -1,0 +1,867 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amboo</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+    />
+    <link rel="stylesheet" href="./css/amboo.min.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="appbar">
+        <div class="leading">
+          <button class="btn btn-t sm white" onclick="toggleMenu()">
+            <i class="material-icons">menu</i>
+          </button>
+        </div>
+        <div class="ts-wraper">
+          <p class="title">Amboo</p>
+          <p class="subtitle">Appbar Subtitle</p>
+        </div>
+        <div class="trailing">
+          <a href="#" class="btn secondary">Login</a>
+          <a href="#" class="btn btn-t sm white">
+            <i class="material-icons">share</i>
+          </a>
+          <a href="#" class="btn btn-t sm white">
+            <i class="material-icons">search</i>
+          </a>
+          <a href="#" class="btn btn-t sm white" onclick="toggleModal('modal')">
+            <i class="material-icons">more_vert</i>
+          </a>
+          <a href="#">
+            <img src="https://picsum.photos/40" class="avatar sm" />
+          </a>
+        </div>
+      </div>
+    </header>
+    <nav class="app-drawer">
+      <div class="app-drawer-head"></div>
+      <ul class="app-drawer-list">
+        <li class="app-drawer-item">
+          <a href="#" class="nav-link">
+            <i class="material-icons">home</i>
+            Home
+          </a>
+        </li>
+        <li class="app-drawer-item">
+          <a href="#" class="nav-link">
+            <i class="material-icons">integration_instructions</i>
+            Getting Started
+          </a>
+        </li>
+        <li class="app-drawer-item submenu" onclick="toggleSubMenu(this)">
+          <a href="#" class="nav-link">
+            <i class="material-icons">apps</i>
+            Components</a
+          >
+          <ul class="app-drawer-sub-list">
+            <li>
+              <a href="./components/appbar.html" class="nav-link">AppBar</a>
+            </li>
+            <li>
+              <a href="./components/appdrawer.html" class="nav-link"
+                >App Drawer</a
+              >
+            </li>
+            <li>
+              <a href="./components/buttons.html" class="nav-link">Buttons</a>
+            </li>
+            <li>
+              <a href="./components/avatars.html" class="nav-link">Avatars</a>
+            </li>
+            <li>
+              <a href="./components/cards.html" class="nav-link">Cards</a>
+            </li>
+            <li>
+              <a href="./components/list.html" class="nav-link">List</a>
+            </li>
+            <li>
+              <a href="./components/fab.html" class="nav-link">FAB</a>
+            </li>
+          </ul>
+        </li>
+        <li class="app-drawer-item submenu" onclick="toggleSubMenu(this)">
+          <a href="#" class="nav-link">
+            <i class="material-icons">insights</i>
+            Properties</a
+          >
+          <ul class="app-drawer-sub-list">
+            <li class="app-drawer-item">
+              <a href="./properties/radius.html" class="nav-link">Radius</a>
+            </li>
+            <li class="app-drawer-item">
+              <a href="./properties/radius.html" class="nav-link">Color</a>
+            </li>
+            <li class="app-drawer-item">
+              <a href="./properties/radius.html" class="nav-link">Size</a>
+            </li>
+            <li class="app-drawer-item">
+              <a href="./properties/radius.html" class="nav-link">Shadow</a>
+            </li>
+            <li class="app-drawer-item">
+              <a href="./properties/grid.html" class="nav-link">Grid</a>
+            </li>
+            <li class="app-drawer-item">
+              <a href="./properties/typography.html" class="nav-link"
+                >Typography</a
+              >
+            </li>
+          </ul>
+        </li>
+        <li class="app-drawer-item">
+          <a href="#" class="nav-link">
+            <i class="material-icons">info_outline</i>
+            About</a
+          >
+        </li>
+        <li class="app-drawer-item">
+          <a href="#" class="nav-link">
+            <i class="material-icons">support</i>
+            Support</a
+          >
+        </li>
+        <li class="app-drawer-item">
+          <a href="#" class="nav-link">
+            <i class="material-icons">groups</i>
+            Contribute</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <main class="main">
+      <h1 class="h1">Amboo</h1>
+      <p class="s1">
+        Amboo is a Google Material Design, free and open-source HTML, CSS and JS
+        library.
+      </p>
+      <a href="#" class="btn primary lg">Get Started</a>
+      <a href="#" class="btn btn-o primary lg">Download</a>
+      <p class="b1">Release: v0.0.1</p>
+
+      <!-- Avatars Start -->
+      <section>
+        <h2 class="h2">Avatars</h2>
+        <p>avatar class use with img</p>
+        <h3 class="h3">Avatar Sizes</h3>
+        <div class="card">
+          <p>auto based on your image size</p>
+          <img class="avatar" src="https://picsum.photos/100" />
+          <p>Small</p>
+          <img src="https://picsum.photos/40?random=1" class="avatar sm" />
+          <p>Medium</p>
+          <img src="https://picsum.photos/52" class="avatar md" />
+          <p>Large</p>
+          <img src="https://picsum.photos/70" class="avatar lg" />
+          <p>Profile</p>
+          <img src="https://picsum.photos/160" class="avatar profile" />
+        </div>
+      </section>
+      <!-- Avatars End -->
+
+      <!-- Buttons Start -->
+      <section>
+        <h2 class="h2">Buttons</h2>
+        <div class="card">
+          <button class="btn">Contained</button>
+          <button class="btn btn-o">Outlined</button>
+          <button class="btn btn-t">Text</button>
+        </div>
+        <h2 class="h2">Contained Button Properties</h2>
+        <h3 class="h3">Button Sizes</h3>
+        <div class="card">
+          <button class="btn xsm">Extra Small</button>
+          <button class="btn sm">Small</button>
+          <button class="btn">Default Medium</button>
+          <button class="btn lg">Large</button>
+          <button class="btn xlg">Extra Large</button>
+        </div>
+        <h3 class="h3">Button Colors</h3>
+        <div class="card">
+          <button class="btn">Default</button>
+          <button class="btn primary">Primary</button>
+          <button class="btn secondary">Secondary</button>
+          <button class="btn success">Success</button>
+          <button class="btn danger">Danger</button>
+          <button class="btn warning">Warning</button>
+          <button class="btn info">Info</button>
+          <button class="btn white">White</button>
+          <button class="btn black">Black</button>
+        </div>
+        <h3 class="h3">Button With Icon</h3>
+        <div class="card">
+          <button class="btn icon-l xlg">
+            <i class="material-icons md-36">add</i>
+            Left Icon
+          </button>
+          <button class="btn icon-r xlg">
+            Right Icon
+            <i class="material-icons md-36">add</i>
+          </button>
+          <p>Only Icon</p>
+          <button class="btn icon-o xlg">
+            <i class="material-icons md-36">add</i>
+          </button>
+        </div>
+        <div class="card">
+          <button class="btn icon-l lg">
+            <i class="material-icons">add</i>
+            Left Icon
+          </button>
+          <button class="btn icon-r lg">
+            Right Icon
+            <i class="material-icons">add</i>
+          </button>
+          <p>Only Icon</p>
+          <button class="btn icon-o lg">
+            <i class="material-icons">add</i>
+          </button>
+        </div>
+        <div class="card">
+          <button class="btn icon-l">
+            <i class="material-icons md-18">add</i>
+            Left Icon
+          </button>
+          <button class="btn icon-r">
+            Right Icon
+            <i class="material-icons md-18">add</i>
+          </button>
+          <p>Only Icon</p>
+          <button class="btn icon-o">
+            <i class="material-icons md-18">add</i>
+          </button>
+        </div>
+        <div class="card">
+          <button class="btn icon-l sm">
+            <i class="material-icons md-18">add</i>
+            Left Icon
+          </button>
+          <button class="btn icon-r sm">
+            Right Icon
+            <i class="material-icons md-18">add</i>
+          </button>
+          <p>Only Icon</p>
+          <button class="btn icon-o sm">
+            <i class="material-icons md-18">add</i>
+          </button>
+        </div>
+        <div class="card">
+          <button class="btn icon-l xsm">
+            <i class="material-icons md-18">add</i>
+            Left Icon
+          </button>
+          <button class="btn icon-r xsm">
+            Right Icon
+            <i class="material-icons md-18">add</i>
+          </button>
+          <p>Only Icon</p>
+          <button class="btn icon-o xsm">
+            <i class="material-icons md-18">add</i>
+          </button>
+        </div>
+        <h2 class="h2">Outlined Button Properties</h2>
+        <h3 class="h3">Button Sizes</h3>
+        <div class="card">
+          <button class="btn btn-o xsm">Extra Small</button>
+          <button class="btn btn-o sm">Small</button>
+          <button class="btn btn-o">Default Medium</button>
+          <button class="btn btn-o lg">Large</button>
+          <button class="btn btn-o xlg">Extra Large</button>
+        </div>
+        <h3 class="h3">Button Colors</h3>
+        <div class="card">
+          <button class="btn btn-o">Default</button>
+          <button class="btn btn-o primary">Primary</button>
+          <button class="btn btn-o secondary">Secondary</button>
+          <button class="btn btn-o success">Success</button>
+          <button class="btn btn-o danger">Danger</button>
+          <button class="btn btn-o warning">Warning</button>
+          <button class="btn btn-o info">Info</button>
+          <span class="b-black">
+            <button class="btn btn-o white">White</button>
+          </span>
+          <button class="btn btn-o black">Black</button>
+        </div>
+        <h3 class="h3">Button With Icon</h3>
+        <div class="card">
+          <button class="btn btn-o icon-l xlg">
+            <i class="material-icons md-36">add</i>
+            Left Icon
+          </button>
+          <button class="btn btn-o icon-r xlg">
+            Right Icon
+            <i class="material-icons md-36">add</i>
+          </button>
+          <p>Only Icon</p>
+          <button class="btn btn-o icon-o xlg">
+            <i class="material-icons md-36">add</i>
+          </button>
+        </div>
+        <div class="card">
+          <button class="btn btn-o icon-l lg">
+            <i class="material-icons">add</i>
+            Left Icon
+          </button>
+          <button class="btn btn-o icon-r lg">
+            Right Icon
+            <i class="material-icons">add</i>
+          </button>
+          <p>Only Icon</p>
+          <button class="btn btn-o icon-o lg">
+            <i class="material-icons">add</i>
+          </button>
+        </div>
+        <div class="card">
+          <button class="btn btn-o icon-l">
+            <i class="material-icons md-18">add</i>
+            Left Icon
+          </button>
+          <button class="btn btn-o icon-r">
+            Right Icon
+            <i class="material-icons md-18">add</i>
+          </button>
+          <p>Only Icon</p>
+          <button class="btn btn-o icon-o">
+            <i class="material-icons md-18">add</i>
+          </button>
+        </div>
+        <div class="card">
+          <button class="btn btn-o icon-l sm">
+            <i class="material-icons md-18">add</i>
+            Left Icon
+          </button>
+          <button class="btn btn-o icon-r sm">
+            Right Icon
+            <i class="material-icons md-18">add</i>
+          </button>
+          <p>Only Icon</p>
+          <button class="btn btn-o icon-o sm">
+            <i class="material-icons md-18">add</i>
+          </button>
+        </div>
+        <div class="card">
+          <button class="btn btn-o icon-l xsm">
+            <i class="material-icons md-18">add</i>
+            Left Icon
+          </button>
+          <button class="btn btn-o icon-r xsm">
+            Right Icon
+            <i class="material-icons md-18">add</i>
+          </button>
+          <p>Only Icon</p>
+          <button class="btn btn-o icon-o xsm">
+            <i class="material-icons md-18">add</i>
+          </button>
+        </div>
+        <h2 class="h2">Text Button Properties</h2>
+        <h3 class="h3">Button Sizes</h3>
+        <div class="card">
+          <button class="btn btn-t xsm">Extra Small</button>
+          <button class="btn btn-t sm">Small</button>
+          <button class="btn btn-t">Default Medium</button>
+          <button class="btn btn-t lg">Large</button>
+          <button class="btn btn-t xlg">Extra Large</button>
+        </div>
+        <h3 class="h3">Button Colors</h3>
+        <div class="card">
+          <button class="btn btn-t">Default</button>
+          <button class="btn btn-t primary">Primary</button>
+          <button class="btn btn-t secondary">Secondary</button>
+          <button class="btn btn-t success">Success</button>
+          <button class="btn btn-t danger">Danger</button>
+          <button class="btn btn-t warning">Warning</button>
+          <button class="btn btn-t info">Info</button>
+          <span class="b-black">
+            <button class="btn btn-t white">White</button>
+          </span>
+          <button class="btn btn-t black">Black</button>
+        </div>
+        <h3 class="h3">Button With Icon</h3>
+        <div class="card">
+          <button class="btn btn-t icon-l xlg">
+            <i class="material-icons md-36">add</i>
+            Left Icon
+          </button>
+          <button class="btn btn-t icon-r xlg">
+            Right Icon
+            <i class="material-icons md-36">add</i>
+          </button>
+          <p>Only Icon</p>
+          <button class="btn btn-t icon-o xlg">
+            <i class="material-icons md-36">add</i>
+          </button>
+        </div>
+        <div class="card">
+          <button class="btn btn-t icon-l lg">
+            <i class="material-icons">add</i>
+            Left Icon
+          </button>
+          <button class="btn btn-t icon-r lg">
+            Right Icon
+            <i class="material-icons">add</i>
+          </button>
+          <p>Only Icon</p>
+          <button class="btn btn-t icon-o lg">
+            <i class="material-icons">add</i>
+          </button>
+        </div>
+        <div class="card">
+          <button class="btn btn-t icon-l">
+            <i class="material-icons md-18">add</i>
+            Left Icon
+          </button>
+          <button class="btn btn-t icon-r">
+            Right Icon
+            <i class="material-icons md-18">add</i>
+          </button>
+          <p>Only Icon</p>
+          <button class="btn btn-t icon-o">
+            <i class="material-icons md-18">add</i>
+          </button>
+        </div>
+        <div class="card">
+          <button class="btn btn-t icon-l sm">
+            <i class="material-icons md-18">add</i>
+            Left Icon
+          </button>
+          <button class="btn btn-t icon-r sm">
+            Right Icon
+            <i class="material-icons md-18">add</i>
+          </button>
+          <p>Only Icon</p>
+          <button class="btn btn-t icon-o sm">
+            <i class="material-icons md-18">add</i>
+          </button>
+        </div>
+        <div class="card">
+          <button class="btn btn-t icon-l xsm">
+            <i class="material-icons md-18">add</i>
+            Left Icon
+          </button>
+          <button class="btn btn-t icon-r xsm">
+            Right Icon
+            <i class="material-icons md-18">add</i>
+          </button>
+          <p>Only Icon</p>
+          <button class="btn btn-t icon-o xsm">
+            <i class="material-icons md-18">add</i>
+          </button>
+        </div>
+      </section>
+      <!-- Buttons End -->
+
+      <!-- Cards Start -->
+      <section>
+        <h2 class="h2">Cards</h2>
+        <div class="card">
+          <div class="card-header">
+            <div class="leading">
+              <img src="https://picsum.photos/52?random=1" class="avatar md" />
+            </div>
+            <div class="ts-wraper">
+              <p class="title">This is Card Title</p>
+              <p class="subtitle">This is Card Subtitle</p>
+            </div>
+            <div class="trailing">
+              <button class="btn sm primary">Add</button>
+            </div>
+          </div>
+          <div class="card-body">
+            <p class="card-containt">
+              Lorem ipsum dolor sit, ambet consectetur adipisicing elit. Est,
+              ambet totamb corporis impedit ipsa provident illum officiis harum!
+              Repellat, inventore!
+            </p>
+            <img src="https://picsum.photos/600/400" class="card-image" />
+          </div>
+          <div class="card-footer float-right">
+            <button class="btn primary">Primary Button</button>
+            <button class="btn secondary">Secondary Button</button>
+          </div>
+        </div>
+        <div class="grid grid-tablet-2">
+          <div class="card grid-item">
+            <div class="card-header">
+              <div class="leading">
+                <img
+                  class="avatar md"
+                  src="https://picsum.photos/52?random=2"
+                />
+              </div>
+              <div class="ts-wraper">
+                <div class="title">Momin Raza</div>
+                <div class="subtitle">I'm a web, app and game developer.</div>
+              </div>
+              <div class="trailing">
+                <i class="material-icons">favorite_outline</i>
+                <i class="material-icons">more_vert</i>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="card-content">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Quisquam iste repudiandae quasi quas esse deleniti totam quaerat
+                fuga atque commodi aut sint placeat aliquid magnam, dicta enim
+                aliquam eum neque ea ducimus! Inventore molestias laudantium,
+                eum aliquam eveniet hic voluptates vero fugiat adipisci illo?
+                Necessitatibus molestias repudiandae aliquid adipisci totam!
+              </div>
+              <img src="https://picsum.photos/300/200" class="card-image" />
+            </div>
+            <div class="card-footer">
+              <a href="#" class="btn primary">Follow</a>
+              <a href="#" class="btn btn-o primary">Learn More</a>
+              <a href="#" class="btn btn-t primary">*Terms</a>
+            </div>
+          </div>
+          <div class="card grid-item">
+            <div class="card-footer grid grid-3">
+              <div class="grid-item center">
+                <a href="#" class="btn btn-t primary icon-l">
+                  <i class="material-icons">thumb_up</i>Like
+                </a>
+              </div>
+              <div class="grid-item center">
+                <a href="#" class="btn btn-t primary icon-l">
+                  <i class="material-icons">comment</i>Comment
+                </a>
+              </div>
+              <div class="grid-item center">
+                <a href="#" class="btn btn-t primary icon-l">
+                  <i class="material-icons">share</i>Share
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="card grid-item"></div>
+          <div class="card grid-item"></div>
+          <div class="card grid-item"></div>
+        </div>
+      </section>
+      <!-- Cards End -->
+
+      <!-- FAB Start -->
+      <section>
+        <h2 class="h2">Floating Action Buttons</h2>
+        <p>fab class can be use with a, button</p>
+        <a href="#" class="fab icon-l fab-middle">
+          <i class="material-icons">edit</i>
+          Floating Action Button
+        </a>
+        <a href="#" class="fab fab-l1 fab-middle b-primary">
+          <i class="material-icons">edit</i>
+        </a>
+        <a href="#" class="fab fab-l2 fab-middle b-secondary">
+          <i class="material-icons">edit</i>
+        </a>
+        <a href="#" class="fab fab-l3 fab-middle b-danger">
+          <i class="material-icons">add</i>
+        </a>
+        <a href="#" class="fab fab-l4 fab-middle b-warning">
+          <i class="material-icons">add</i>
+        </a>
+        <a href="#" class="fab fab-l5 fab-middle b-info">
+          <i class="material-icons">edit</i>
+        </a>
+        <a href="#" class="fab fab-l6 fab-middle b-success">
+          <i class="material-icons">add</i>
+        </a>
+        <a href="#" class="fab icon-o"><i class="material-icons">edit</i></a>
+        <a href="#" class="fab fab-l1 b-primary">
+          <i class="material-icons">edit</i>
+        </a>
+        <a href="#" class="fab fab-l2 b-secondary">
+          <i class="material-icons">edit</i>
+        </a>
+        <a href="#" class="fab fab-l3 b-danger">
+          <i class="material-icons">add</i>
+        </a>
+        <a href="#" class="fab fab-l4 b-warning">
+          <i class="material-icons">add</i>
+        </a>
+        <a href="#" class="fab fab-l5 b-info">
+          <i class="material-icons">edit</i>
+        </a>
+        <a href="#" class="fab fab-l6 b-success">
+          <i class="material-icons">add</i>
+        </a>
+      </section>
+      <!-- FAB End -->
+
+      <!-- List Start -->
+      <section>
+        <h2 class="h2">List</h2>
+        <div class="list">
+          <div class="list-item">
+            <div class="leading">
+              <img src="https://picsum.photos/52?random=3" class="avatar md" />
+            </div>
+            <div class="ts-wraper">
+              <p class="title">List With All Components</p>
+              <p class="subtitle">This is List Item Subtitle</p>
+            </div>
+            <div class="trailing">
+              <button class="btn sm primary">Add</button>
+              <button class="btn sm danger">Remove</button>
+            </div>
+          </div>
+          <div class="list-item">
+            <div class="ts-wraper">
+              <p class="title">List with Out Leading and Trailing</p>
+              <p class="subtitle">This is List Item Subtitle</p>
+            </div>
+          </div>
+          <div class="list-item">
+            <div class="leading">
+              <img src="https://picsum.photos/52?random=4" class="avatar md" />
+            </div>
+            <div class="ts-wraper">
+              <p class="title">List without subtitle</p>
+              <p class="subtitle"></p>
+            </div>
+            <div class="trailing">
+              <button class="btn sm primary">Add</button>
+            </div>
+          </div>
+          <div class="list-item">
+            <div class="leading">
+              <img src="https://picsum.photos/40?random=2" class="avatar sm" />
+            </div>
+            <div class="ts-wraper">
+              <p class="title">List With Small Avatar</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- List End -->
+
+      <!-- Radius Start -->
+      <section>
+        <h2 class="h2">Properties</h2>
+        <div class="card">
+          <h3 class="h3">Radius</h3>
+          <button class="btn xlg primary rd-1">Radius 1</button>
+          <button class="btn xlg primary rd-2">Radius 2</button>
+          <button class="btn xlg primary rd-3">Radius 3</button>
+          <button class="btn xlg primary rd-4">Radius 4</button>
+          <button class="btn xlg primary rd-5">Radius 5</button>
+          <button class="btn xlg primary rd-6">Radius 6</button>
+          <button class="btn xlg primary avatar">Radius circle</button>
+          <p>*Radius Circle can only used in square shapes.</p>
+          <div
+            class="avatar b-primary"
+            style="
+              width: 100px;
+              height: 100px;
+              text-align: center;
+              padding: 20px;
+            "
+          >
+            Like This
+          </div>
+        </div>
+      </section>
+      <!-- Radius End -->
+
+      <!-- Grid Start -->
+      <section>
+        <h2 class="h3">Grid</h2>
+        <p class="b1">
+          Grid can have 8 columns without specifing device size. But with device
+          size specification there are some downgrandes and upgrades you can
+          make.
+        </p>
+        <p class="b2">By default you can add grid-2, grid-3 ... grid-8.</p>
+        <p class="b2">
+          With sm-mobile you can only add grid-sm-mobile-2, grid-sm-mobile-3,
+          grid-sm-mobile-4
+        </p>
+        <p class="b2">
+          With mobile you can only add grid-mobile-2, grid-mobile-3 ...
+          grid-mobile-6
+        </p>
+        <p class="b2">
+          With tablet you can only add grid-tablet-2, grid-tablet-3 ...
+          grid-tablet-8
+        </p>
+        <p class="b2">
+          With sm-laptop you can only add grid-sm-laptop-2, grid-sm-laptop-3 ...
+          grid-sm-laptop-10
+        </p>
+        <p class="b2">
+          With laptop you can only add grid-laptop-2, grid-laptop-3 ...
+          grid-laptop-12
+        </p>
+        <p class="b2">
+          If you adding a big device classes than you must be need to add small
+          classes otherwise in small screensize grid will be automatically 1.
+        </p>
+        <p class="b2">
+          Example: first add big screen size classes like grid-laptop-8, now add
+          small screen size classes like grid-tablet-6 now add more small screen
+          class like grid-mobile-3.
+        </p>
+        <p class="b1">Note: grid-sm-mobile works diffrently</p>
+
+        <div class="card grid grid-2">
+          <div class="card grid-item b-primary">1</div>
+          <div class="card grid-item b-secondary">2</div>
+          <div class="card grid-item b-success">3</div>
+          <div class="card grid-item b-danger">4</div>
+          <div class="card grid-item b-warning">5</div>
+          <div class="card grid-item b-info">6</div>
+          <div class="card grid-item b-primary">7</div>
+          <div class="card grid-item b-secondary">8</div>
+          <div class="card grid-item b-success">9</div>
+          <div class="card grid-item b-danger">10</div>
+          <div class="card grid-item b-warning">11</div>
+          <div class="card grid-item b-info">12</div>
+        </div>
+        <div class="card grid grid-sm-mobile-4">
+          <div class="card grid-item b-primary">1</div>
+          <div class="card grid-item b-secondary">2</div>
+          <div class="card grid-item b-success">3</div>
+          <div class="card grid-item b-danger">4</div>
+          <div class="card grid-item b-warning">5</div>
+          <div class="card grid-item b-info">6</div>
+          <div class="card grid-item b-primary">7</div>
+          <div class="card grid-item b-secondary">8</div>
+          <div class="card grid-item b-success">9</div>
+          <div class="card grid-item b-danger">10</div>
+          <div class="card grid-item b-warning">11</div>
+          <div class="card grid-item b-info">12</div>
+        </div>
+        <div class="card grid grid-mobile-6">
+          <div class="card grid-item b-primary">1</div>
+          <div class="card grid-item b-secondary">2</div>
+          <div class="card grid-item b-success">3</div>
+          <div class="card grid-item b-danger">4</div>
+          <div class="card grid-item b-warning">5</div>
+          <div class="card grid-item b-info">6</div>
+          <div class="card grid-item b-primary">7</div>
+          <div class="card grid-item b-secondary">8</div>
+          <div class="card grid-item b-success">9</div>
+          <div class="card grid-item b-danger">10</div>
+          <div class="card grid-item b-warning">11</div>
+          <div class="card grid-item b-info">12</div>
+        </div>
+        <div class="card grid grid-tablet-8">
+          <div class="card grid-item b-primary">1</div>
+          <div class="card grid-item b-secondary">2</div>
+          <div class="card grid-item b-success">3</div>
+          <div class="card grid-item b-danger">4</div>
+          <div class="card grid-item b-warning">5</div>
+          <div class="card grid-item b-info">6</div>
+          <div class="card grid-item b-primary">7</div>
+          <div class="card grid-item b-secondary">8</div>
+          <div class="card grid-item b-success">9</div>
+          <div class="card grid-item b-danger">10</div>
+          <div class="card grid-item b-warning">11</div>
+          <div class="card grid-item b-info">12</div>
+        </div>
+        <div class="card grid grid-sm-laptop-10">
+          <div class="card grid-item b-primary">1</div>
+          <div class="card grid-item b-secondary">2</div>
+          <div class="card grid-item b-success">3</div>
+          <div class="card grid-item b-danger">4</div>
+          <div class="card grid-item b-warning">5</div>
+          <div class="card grid-item b-info">6</div>
+          <div class="card grid-item b-primary">7</div>
+          <div class="card grid-item b-secondary">8</div>
+          <div class="card grid-item b-success">9</div>
+          <div class="card grid-item b-danger">10</div>
+          <div class="card grid-item b-warning">11</div>
+          <div class="card grid-item b-info">12</div>
+        </div>
+        <div class="card grid grid-laptop-12 grid-tablet-8 grid-mobile-4">
+          <div class="card grid-item b-primary">1</div>
+          <div class="card grid-item b-secondary">2</div>
+          <div class="card grid-item b-success">3</div>
+          <div class="card grid-item b-danger">4</div>
+          <div class="card grid-item b-warning">5</div>
+          <div class="card grid-item b-info">6</div>
+          <div class="card grid-item b-primary">7</div>
+          <div class="card grid-item b-secondary">8</div>
+          <div class="card grid-item b-success">9</div>
+          <div class="card grid-item b-danger">10</div>
+          <div class="card grid-item b-warning">11</div>
+          <div class="card grid-item b-info">12</div>
+        </div>
+      </section>
+      <!-- Grid End -->
+
+      <!-- Typography Start -->
+      <section>
+        <h2 class="h2">Typography</h2>
+        <div class="card">
+          <p class="h1">Headline 1</p>
+          <p class="h2">Headline 2</p>
+          <p class="h3">Headline 3</p>
+          <p class="h4">Headline 4</p>
+          <p class="h5">Headline 5</p>
+          <p class="h6">Headline 6</p>
+          <p class="s1">Subtitle 1</p>
+          <p class="s2">Subtitle 2</p>
+          <p class="b1">Body 1</p>
+          <p class="b2">Body 2</p>
+          <p class="b">Button</p>
+          <p class="c">Caption</p>
+          <p class="o">Overline</p>
+        </div>
+      </section>
+      <!-- Typography End -->
+    </main>
+    <!-- Modal Start -->
+    <div class="modal card" id="modal">
+      <h2 class="h4">Login</h2>
+      <button
+        class="btn btn-t danger sm modal-close"
+        onclick="toggleModal('modal')"
+      >
+        <div class="material-icons">close</div>
+      </button>
+      <form action="#">
+        <div class="card-body">
+          <label>
+            Username
+            <input type="text" name="username" id="username" />
+          </label>
+          <label>
+            Password
+            <input type="password" name="password" id="password" />
+          </label>
+          <label>
+            <input type="checkbox" name="terms" />
+            Accept terms
+          </label>
+          <label>
+            <input type="radio" name="yes" />
+            Yes
+          </label>
+          <label>
+            <input type="radio" name="yes" />
+            No
+          </label>
+        </div>
+        <div class="card-footer right">
+          <button type="submit" class="btn primary">Done</button>
+          <a href="#" class="btn btn-o primary" onclick="toggleModal('modal')">
+            Close
+          </a>
+        </div>
+      </form>
+    </div>
+    <!-- Modal End -->
+
+    <script src="./js/amboo.js"></script>
+  </body>
+</html>
