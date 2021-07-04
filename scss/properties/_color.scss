@@ -1,6 +1,12 @@
-// color
+// background color
 @each $name, $color in $colors {
   .b-#{$name} {
     @include set-bc($color);
+  }
+}
+// color
+@each $name, $color in $colors {
+  .c-#{$name} {
+    color: $color;
   }
 }

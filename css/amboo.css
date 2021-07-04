@@ -1001,6 +1001,38 @@ input[type="checkbox"], input[type="radio"] {
   color: #fff;
 }
 
+.c-primary {
+  color: #6200ee;
+}
+
+.c-secondary {
+  color: #03dac5;
+}
+
+.c-success {
+  color: #28a745;
+}
+
+.c-danger {
+  color: #b00020;
+}
+
+.c-warning {
+  color: orange;
+}
+
+.c-info {
+  color: #55c3e7;
+}
+
+.c-white {
+  color: white;
+}
+
+.c-black {
+  color: black;
+}
+
 .grid {
   display: -ms-grid;
   display: grid;
